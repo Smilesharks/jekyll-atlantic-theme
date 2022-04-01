@@ -3,14 +3,12 @@
     font-weight:400;
     src:url("/assets/fonts/PlusJakartaSans-Regular.woff") format("woff2");
 }
-
 @font-face{
     font-family:Plus Jakarta Sans;
     font-weight:400;
     font-style:italic;
     src:url("/assets/fonts/PlusJakartaSans-Italic.woff") format("woff2");
 }
-
 @font-face{
     font-family:Plus Jakarta Sans;
     font-weight:500;
