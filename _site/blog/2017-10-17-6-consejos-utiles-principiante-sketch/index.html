@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>
+  
+    6 consejos útiles para principiante en Sketch
+    -
+    Ariel Cerda Hernandez
+  
+</title>
+
+
+
+<meta property="og:title" content="6 consejos útiles para principiante en Sketch"/>
+
+<meta content="website" property="og:type"/>
+<meta property="og:url" content="/blog/2017-10-17-6-consejos-utiles-principiante-sketch/"/>
+
+  <meta property="og:image" content="http://localhost:4000/assets/img/articles/0_7j4W7nreTc5Lu3Bp.gif"/>
+
+
+<meta content="summary" name="twitter:card"/>
+<meta name="twitter:site" content="@smilesharks"/>
+
+<meta name="twitter:creator" content="@smilesharks"/>
+
+
+
+    <link rel="icon" href="/favicon.png">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="page ">
+    <div id="menu-container"
+  class=" bg-blue-600 h-screen w-screen fixed z-50 p-8 flex-col items-center justify-around bg-gradient-to-b from-yellow-400 to-blue-500 opacity-90 overflow-hidden hidden">
+  <div id="menu-close" class="top-7 right-7 absolute">
+    <svg aria-hidden="true" focusable="false" class="h-6 text-white" role="img" xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 352 512">
+      <path fill="currentColor"
+        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+      </path>
+    </svg>
+  </div>
+  <div class="flex flex-col text-center text-white text-2xl font-bold">
+    
+    <a class="py-2" href="/">Home</a>
+    
+    <a class="py-2" href="/blog/">Blog</a>
+    
+    <a class="py-2" href="/about/">About</a>
+    
+    <a class="py-2" href="/portfolio/">Portafolio</a>
+    
+    <a class="py-2" href="#subscribe">Subscribe</a>
+    
+  </div>
+</div>
+    <div class="relative bg-white">
+
+<nav role="navigation" class="relative w-full text-gray-900 ">
+    <div class="absolute inset-x-0 overflow-hidden opacity-40 -inset-y-2 bg-gradient-to-r from-yellow-500 to-pink-500 rounded-xl filter blur-md"></div>
+        
+
+    <div x-data="{ open: false }" class="relative bg-white">
+        <div class="container flex flex-col px-4 mx-auto md:items-center md:justify-between md:flex-row">
+            <div class="flex flex-row items-center justify-between py-4">
+                <!-- Logo -->
+                <div class="hidden logo md:block">
+  <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
+    
+    <!-- <img class="mr-2" height="36px" width="36px"
+      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
+            <lottie-player
+            autoplay
+            mode="normal"
+            src="/assets/lottie/data.json"
+            class="w-12 h-12 sm:w-12 sm:h-12 filter invert"
+            >
+            </lottie-player>
+    
+    
+    <h2 class="font-sans text-2xl font-semibold">Ariel Cerda</h2>
+    
+  </a>
+</div>
+<div class="block logo-mobile md:hidden">
+  <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
+    
+    <!-- <img height="36px" width="36px"
+      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
+            <lottie-player
+            autoplay
+            mode="normal"
+            src="/assets/lottie/data.json"
+            class="w-12 h-12 sm:w-12 sm:h-12 filter invert"
+            >
+            </lottie-player>
+    
+    
+    <h2 class="font-sans text-2xl font-semibold"></h2>
+    
+  </a>
+</div>      
+                </a>
+                <!-- boton de cierre en mobiles -->
+                <button class="md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                        <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                        <path
+                            x-show="open"
+                            fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+            <div :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 my-6 space-y-6 sm:space-y-0 md:pb-0 md:flex md:justify-end md:flex-row">
+            <!-- 
+            
+                
+                
+            
+            
+                
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+             -->
+            
+            
+            <a class="px-4 py-2 btn hover:text-yellow-500" href="/">Home</a>
+            
+            <a class="px-4 py-2 btn hover:text-yellow-500" href="/blog/">Blog</a>
+            
+            <a class="px-4 py-2 btn hover:text-yellow-500" href="/about/">About</a>
+            
+            <a class="px-4 py-2 btn hover:text-yellow-500" href="/portfolio/">Portafolio</a>
+            
+            <a class="px-4 py-2 btn hover:text-yellow-500" href="#subscribe">Subscribe</a>
+            
+            
+            <!-- Menu desplegable -->
+            <!-- <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                <button
+                    @click="open = !open"
+                    class="flex flex-row items-center w-full p-2 mt-2 text-lg font-normal text-left bg-transparent dark-mode:bg-transparent dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-yellow-600 focus:text-gray-100 focus:outline-none focus:shadow-outline"
+                >
+                    <span>About</span>
+                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 ml-1 -mt-1 text-yellow-500 transition-transform duration-200 transform">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div
+                    x-show="open"
+                    x-transition:enter="transition ease-out duration-100"
+                    x-transition:enter-start="transform opacity-0 scale-95"
+                    x-transition:enter-end="transform opacity-100 scale-100"
+                    x-transition:leave="transition ease-in duration-75"
+                    x-transition:leave-start="transform opacity-100 scale-100"
+                    x-transition:leave-end="transform opacity-0 scale-95"
+                    class="absolute z-30 w-full mt-3 origin-top-right shadow-lg md:w-72"
+                >
+                    <div class="p-8 text-gray-100 bg-white border-yellow-500 shadow dark-mode:bg-gray-700 sm:text-gray-900 sm:border-b-4">
+                        <a
+                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
+                            href="#"
+                        >
+                            <p class="text-base font-medium leading-6">
+                                Small
+                            </p>
+                            <p class="text-sm leading-5">
+                                Learn about tips, product updates and company culture.
+                            </p>
+                        </a>
+                        <a
+                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
+                            href="#"
+                        >
+                            <p class="text-base font-medium leading-6">
+                                Small
+                            </p>
+                            <p class="text-sm leading-5">
+                                Learn about tips, product updates and company culture.
+                            </p>
+                        </a>
+                        <a
+                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
+                            href="#"
+                        >
+                            <p class="text-base font-medium leading-6">
+                                Small
+                            </p>
+                            <p class="text-sm leading-5">
+                                Learn about tips, product updates and company culture.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+      </div>
+  </div>
+  
+</nav>
+    <div class="container px-6 mx-auto md:px-4">
+      
+
+
+
+
+<div class="py-6 md:py-12 md:text-center mx-auto">
+  
+  <div class="font-medium text-gray-700">18 October 2017</div>
+  
+  <h1 class="font-sans text-4xl font-bold heading md:text-6xl md:leading-tight">
+    6 consejos útiles para principiante en Sketch
+  </h1>
+  
+</div>
+
+
+  <div class="flex flex-col pb-3 md:hidden">
+    
+      
+
+
+
+<div class="flex items-start mb-3 space-x-2 last:mb-0">
+  
+    <img height="48" width="48" class="border-2 border-white rounded-full" src="https://miro.medium.com/fit/c/262/262/0*j1z_FcHb_vjgf5cf.jpeg" alt="Ariel Cerda"/>
+  
+  <div class="flex flex-col space-y-2">
+    <span class="block ml-1 text-sm font-medium">Ariel Cerda</span>
+    <a class="block ml-1 text-sm text-yellow-500" href="https://www.twitter.com/@smilesharks">@smilesharks</a>
+    <div class="flex">
+    <a href="https://github.com/Smilesharks" class="text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Github</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.606 9.606 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48C19.137 20.107 22 16.373 22 11.969 22 6.463 17.522 2 12 2z"></path>
+      </svg>
+    </a>
+    <a href="https://www.instagram.com/smilesharks/" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Instagram</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+      </svg>
+    </a>
+    <a href="https://twitter.com/intent/follow?screen_name=smilesharks" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Twitter</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+      </svg>
+    </a>
+    <a href="https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Twitter</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 65 50">
+        <path d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31 c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56 C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30 S64.31,19.77,63,14.87z"></path>
+        <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"></polygon>
+      </svg>
+    </a>
+  </div>
+  </div>
+</div>
+
+    
+  </div>
+
+
+<div class="overflow-hidden transition duration-300 ease-in-out rounded-md shadow-2xl aspect-w-16 aspect-h-9 sm:flex sm:space-x-6 hover:shadow-lg">
+    
+    
+        <img class="object-cover w-full sm:rounded-xl " src="/assets/img/articles/0_7j4W7nreTc5Lu3Bp.gif" alt="6 consejos útiles para principiante en Sketch" title="6 consejos útiles para principiante en Sketch" />
+        
+</div>
+
+<div class="flex flex-col py-6 md:flex-row md:py-12">
+
+  <div class="w-full pr-12 md:w-3/12">
+    
+      <div class="flex flex-col hidden mb-3 md:flex md:mb-6">
+        
+          
+
+
+
+<div class="flex items-start mb-3 space-x-2 last:mb-0">
+  
+    <img height="48" width="48" class="border-2 border-white rounded-full" src="https://miro.medium.com/fit/c/262/262/0*j1z_FcHb_vjgf5cf.jpeg" alt="Ariel Cerda"/>
+  
+  <div class="flex flex-col space-y-2">
+    <span class="block ml-1 text-sm font-medium">Ariel Cerda</span>
+    <a class="block ml-1 text-sm text-yellow-500" href="https://www.twitter.com/@smilesharks">@smilesharks</a>
+    <div class="flex">
+    <a href="https://github.com/Smilesharks" class="text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Github</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.606 9.606 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48C19.137 20.107 22 16.373 22 11.969 22 6.463 17.522 2 12 2z"></path>
+      </svg>
+    </a>
+    <a href="https://www.instagram.com/smilesharks/" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Instagram</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+      </svg>
+    </a>
+    <a href="https://twitter.com/intent/follow?screen_name=smilesharks" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Twitter</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+      </svg>
+    </a>
+    <a href="https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Twitter</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 65 50">
+        <path d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31 c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56 C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30 S64.31,19.77,63,14.87z"></path>
+        <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"></polygon>
+      </svg>
+    </a>
+  </div>
+  </div>
+</div>
+
+        
+      </div>
+    
+
+    
+      <div class="hidden md:block">
+        
+          <a class="inline-block p-1 px-3 mb-1 mr-1 font-mono text-xs text-yellow-800 transition duration-300 ease-in-out bg-yellow-200 rounded hover:bg-blue-200 hover:text-blue-800" href="/category/diseño">Diseño</a>
+        
+      </div>
+    
+    <div class="hidden md:block">
+      <div class="mx-auto my-12 space-y-3 ">
+    <h4 class="text-xl font-bold leading-tight text-black">Últimas publicaciones</h4>
+    <div class="flex flex-col space-y-6 divide-y divide-gray-600 divide-solid divide-opacity-30">
+        
+        <a class="prose post-link" href="//blog/2022-02-14-por-que-la-gente-se-va-de-nueva-zelanda/">
+            <div class="space-y-6 group">
+                <h5 class="mt-6 font-semibold text-gray-600 text-md ">Por qué la gente se va de Nueva Zelanda</h5>
+                <span class="text-sm text-gray-400 post-meta">Mar 13, 2022</span>
+            </div>
+        </a>
+        
+        <a class="prose post-link" href="//blog/2022-02-14-7-cosas-de-nueva-zelanda-que-no-tienen-sentido/">
+            <div class="space-y-6 group">
+                <h5 class="mt-6 font-semibold text-gray-600 text-md ">7 Cosas de Nueva Zelanda que No tienen sentido 🇳🇿</h5>
+                <span class="text-sm text-gray-400 post-meta">Feb 14, 2022</span>
+            </div>
+        </a>
+        
+        <a class="prose post-link" href="//blog/2021-06-29-latinos-hablando-ingles-en-nueva-zelanda/">
+            <div class="space-y-6 group">
+                <h5 class="mt-6 font-semibold text-gray-600 text-md ">Latinos hablando inglés en Nueva Zelanda</h5>
+                <span class="text-sm text-gray-400 post-meta">Oct 17, 2021</span>
+            </div>
+        </a>
+        
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="w-full space-y-6 md:space-y-12 md:w-9/12">
+    <div class="prose prose-lg prose-yellow">
+      <p>6 consejos básicos que tal vez no conoces y que te ayudarán a aumentar tu productividad en Sketch.</p>
+
+<p><strong>Consejo uno — Duplicar cualquier cosa en segundos</strong></p>
+
+<p>Si actualmente no conoces este truco quizás estés haciendo algo como esto:</p>
+
+<p><a href="https://miro.medium.com/max/60/0*buxXpKENOIdVY0HP.?q=20" title="Click para ver el link"><img src="https://miro.medium.com/max/60/0*buxXpKENOIdVY0HP.?q=20" alt="image" /></a></p>
+
+<p>hacer click, copiar, pegar, re-posicionar, repetir.</p>
+
+<p>Ésa no es la manera más eficiente de hacerlo, para acortar este proceso a la mitad debes hacer esto:</p>
+
+<p>Selecciona lo que deseas duplicar y mantenga presionada la tecla opción, haga clic y arrástralo donde desees que vaya, luego presione comando-d en el teclado para repetir.</p>
+
+<p>Repitiendo comando-d simplemente duplique el proceso que acaba de realizar una y otra vez manteniendo la distancia anterior.</p>
+
+<p><strong>Consejo número dos — Distancia de medición</strong></p>
+
+<p><a href="https://miro.medium.com/max/60/0*K9RgR_IWVglTQsHd.?q=20" title="Click para ver el link"><img src="https://miro.medium.com/max/60/0*K9RgR_IWVglTQsHd.?q=20" alt="image" /></a></p>
+
+<p>“Pixel Perfect” es hermoso pero también puede ser increíblemente frustrante. Afortunadamente Sketch hace bastante fácil medir distancias entre los objetos.</p>
+
+<p>Selecciona un objeto y mantenga presionada la tecla de opción, luego coloca el cursor sobre cualquier otra cosa en la pantalla para ver cuántos pixeles hay entre estos dos objetos y poder ajustar según sea necesario.</p>
+
+<p><strong>Consejo número tres — Crear una cuadrícula personalizada</strong></p>
+
+<p><a href="https://miro.medium.com/max/60/0*VD0jSz80BR9b7FgN.?q=20" title="Click para ver el link"><img src="https://miro.medium.com/max/60/0*VD0jSz80BR9b7FgN.?q=20" alt="image" /></a></p>
+
+<p>El uso de grillas se hace indispensable a la hora de diseñar en distintas resoluciones y tipos de dispositivos: teléfonos móviles, formato landscape y portrait, tabletas y computadoras.</p>
+
+<p>Puedes encontrar las configuraciones de las grillas haciendo click en “View / Layout Settings”</p>
+
+<p>Acá puedes modificar el ancho total, la cantidad de columnas, el espacio entre columnas y los colores de la grilla.</p>
+
+<p>Si encuentras tu combinación ideal puedes hacer click en Make Default para utilizarla cada vez que lo necesites sin tener que volver a entrar dentro de este panel.</p>
+
+<p><strong>Consejo número cuatro — Usa y abusa de los símbolos</strong></p>
+
+<p><a href="https://miro.medium.com/max/60/0*7j4W7nreTc5Lu3Bp.?q=20" title="Click para ver el link"><img src="https://miro.medium.com/max/60/0*7j4W7nreTc5Lu3Bp.?q=20" alt="image" /></a></p>
+
+<p>Imagínate que debes exportar un montón de pantallas que son esencialmente lo mismo, pero tienen pequeños cambios.</p>
+
+<p>Selecciona el tablero o grupo que se repite en todas ellas y transfórmalos en un símbolo.</p>
+
+<p>A continuación, duplica ese símbolo tantas veces sea necesario y haz las modificaciones sobre la parte superior de esta.</p>
+
+<p>Qué pasaría si tuvieras que editar los elementos de debajo?</p>
+
+<p>Si no fueran símbolos deberías mover lo que está encima y hacer los cambios en todos los artboards que creaste. Pero como está hecho con símbolos solo debes modificarlo que repetiste desde la página de símbolos en el costado izquierdo y una vez que vuelvas a la página los cambios se verán reflejados en todos los artboards (Esto es muy útil y a la vez un poco complejo de entender al comienzo por lo que lo veremos en otro post con más detalle un poco más adelante en el blog)</p>
+
+<p><strong>Consejo número cinco — Cambiar la opacidad sobre la marcha</strong></p>
+
+<p><a href="https://miro.medium.com/max/60/0*hwgU3YFr7zYx5is1.?q=20" title="Click para ver el link"><img src="https://miro.medium.com/max/60/0*hwgU3YFr7zYx5is1.?q=20" alt="image" /></a></p>
+
+<p>Esto funciona igual que en Photoshop, pero mucha gente todavía no lo sabe. Utiliza las teclas numéricas (1–0) del teclado para establecer los niveles de opacidad en intervalos del 10%.</p>
+
+<p><strong>Consejo número seis — Evitar la frustración al escalar elementos.</strong></p>
+
+<p><a href="https://miro.medium.com/max/60/0*bbujMHWdwNi0f10l.?q=20" title="Click para ver el link"><img src="https://miro.medium.com/max/60/0*bbujMHWdwNi0f10l.?q=20" alt="image" /></a></p>
+
+<p>Todos cometemos errores, digamos que diseñaste un botón, pero lo hiciste demasiado grande. Tienes un radio de 20px y un contorno de 4px. Si simplemente arrastras la esquina para reducirlo, quedará un desastre con todos los elementos. En su lugar, haz clic en Escalar y redimensiona el tamaño a lo que necesitas en pixeles o porcentajes, además puedes elegir desde qué punto quieres que se escale el elemento.</p>
+
+    </div>
+    <div class="space-y-6 md:space-y-12 md:w-10/12 ">
+      <div id="subscribe" class="bg-white py-6 sm:py-8 lg:py-12">
+        <div class="max-w-screen-2xl mx-auto">
+        <div class="flex flex-col lg:flex-row lg:justify-between items-center bg-gray-100 rounded-lg p-4 sm:p-8">
+                <div class="mb-4 sm:mb-8 lg:mb-0">
+                <h2 class="text-yellow-500 text-xl sm:text-2xl lg:text-3xl font-bold text-center lg:text-left">Suscribete</h2>
+                <p class="text-gray-500 text-center lg:text-left">Únete a mi lista de correo para recibir ocasionalmente artículos.</p>
+                </div>
+
+                <div class="flex flex-col items-center lg:items-end">
+                        <!-- Begin Mailchimp Signup Form -->
+                        <div id="mc_embed_signup">
+                                <form action="https://arielcerda.us18.list-manage.com/subscribe/post?u=9251d9deccc6863333a4ee019&amp;id=a0f39a7fed" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate w-full max-w-md flex flex-row gap-2 mb-3" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll" class="flex flex-col space-y-2 md:space-y-0 md:flex-row items-end space-x-2 ">
+                                        
+                                                <div class="mc-field-group space-y-2">
+                                                        <label for="mce-EMAIL">Correo electronico  <span class="asterisk">*</span></label>
+                                                        <input placeholder="Email" type="email" value="" name="EMAIL" class="required email w-full flex-1 bg-gray-white text-gray-800 placeholder-gray-400 border border-gray-300 focus:ring ring-yellow-300 rounded outline-none transition duration-100 px-3 py-2" id="mce-EMAIL">
+                                                </div>
+
+                                                <div id="mce-responses" class="clear foot">
+                                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9251d9deccc6863333a4ee019_a0f39a7fed" tabindex="-1" value=""></div>
+                                                <div class="optionalParent">
+                                                        <div class="clear foot">
+                                                        <input type="submit" value="Suscribete" name="subscribe" id="mc-embedded-subscribe" class="inline-block bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 focus-visible:ring ring-yellow-300 text-white text-sm md:text-base font-semibold text-center rounded outline-none transition duration-100 px-8 py-2">
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </form>
+                        </div>
+                                
+                        <!--End mc_embed_signup-->
+                </div>
+        </div>
+        </div>
+</div>
+
+
+
+
+      
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://smilesharks.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+    </div>
+  </div>
+
+</div>
+
+
+  <div class="block py-6 mt-6 border-t-2 md:hidden">
+    <h3 class="mb-1 text-sm font-medium">Categories</h3>
+    <div>
+      
+        <a class="inline-block p-1 px-3 mb-1 mr-1 font-mono text-xs text-yellow-800 transition duration-300 ease-in-out bg-yellow-200 rounded hover:bg-blue-200 hover:text-blue-800" href="/category/diseño">Diseño</a>
+      
+    </div>
+  </div>
+   
+  <div class="block py-6 mt-6 border-t-2 md:hidden">
+    <div class="mx-auto my-12 space-y-3 ">
+    <h4 class="text-xl font-bold leading-tight text-black">Últimas publicaciones</h4>
+    <div class="flex flex-col space-y-6 divide-y divide-gray-600 divide-solid divide-opacity-30">
+        
+        <a class="prose post-link" href="//blog/2022-02-14-por-que-la-gente-se-va-de-nueva-zelanda/">
+            <div class="space-y-6 group">
+                <h5 class="mt-6 font-semibold text-gray-600 text-md ">Por qué la gente se va de Nueva Zelanda</h5>
+                <span class="text-sm text-gray-400 post-meta">Mar 13, 2022</span>
+            </div>
+        </a>
+        
+        <a class="prose post-link" href="//blog/2022-02-14-7-cosas-de-nueva-zelanda-que-no-tienen-sentido/">
+            <div class="space-y-6 group">
+                <h5 class="mt-6 font-semibold text-gray-600 text-md ">7 Cosas de Nueva Zelanda que No tienen sentido 🇳🇿</h5>
+                <span class="text-sm text-gray-400 post-meta">Feb 14, 2022</span>
+            </div>
+        </a>
+        
+        <a class="prose post-link" href="//blog/2021-06-29-latinos-hablando-ingles-en-nueva-zelanda/">
+            <div class="space-y-6 group">
+                <h5 class="mt-6 font-semibold text-gray-600 text-md ">Latinos hablando inglés en Nueva Zelanda</h5>
+                <span class="text-sm text-gray-400 post-meta">Oct 17, 2021</span>
+            </div>
+        </a>
+        
+    </div>
+</div>
+  </div>
+    </div>
+    <footer>
+	<!-- <script src="/assets/js/awesome.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine-ie11.min.js"></script>	
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/tgs-player.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({
+		duration: 1200
+		});
+		AOS.init({disable: 'mobile'});
+
+	</script>
+	
+	<div class="py-6 text-gray-900 bg-white">
+		<div class="container flex flex-col w-full p-8 mx-auto space-y-6 text-sm text-black border-gray-700 sm:space-y-0 sm:items-center max-w-7xl md:flex-row md:justify-between">
+			<span>
+				<div class="hidden logo md:block">
+  <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
+    
+    <!-- <img class="mr-2" height="36px" width="36px"
+      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
+            <lottie-player
+            autoplay
+            mode="normal"
+            src="/assets/lottie/data.json"
+            class="w-12 h-12 sm:w-12 sm:h-12 filter invert"
+            >
+            </lottie-player>
+    
+    
+    <h2 class="font-sans text-2xl font-semibold">Ariel Cerda</h2>
+    
+  </a>
+</div>
+<div class="block logo-mobile md:hidden">
+  <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
+    
+    <!-- <img height="36px" width="36px"
+      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
+            <lottie-player
+            autoplay
+            mode="normal"
+            src="/assets/lottie/data.json"
+            class="w-12 h-12 sm:w-12 sm:h-12 filter invert"
+            >
+            </lottie-player>
+    
+    
+    <h2 class="font-sans text-2xl font-semibold"></h2>
+    
+  </a>
+</div>
+			</span>
+			<span class="sm:space-x-6">
+				                                                                 
+			</span>
+			<div class="flex">
+    <a href="https://github.com/Smilesharks" class="text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Github</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.463 2 11.97c0 4.404 2.865 8.14 6.839 9.458.5.092.682-.216.682-.48 0-.236-.008-.864-.013-1.695-2.782.602-3.369-1.337-3.369-1.337-.454-1.151-1.11-1.458-1.11-1.458-.908-.618.069-.606.069-.606 1.003.07 1.531 1.027 1.531 1.027.892 1.524 2.341 1.084 2.91.828.092-.643.35-1.083.636-1.332-2.22-.251-4.555-1.107-4.555-4.927 0-1.088.39-1.979 1.029-2.675-.103-.252-.446-1.266.098-2.638 0 0 .84-.268 2.75 1.022A9.606 9.606 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.29 2.747-1.022 2.747-1.022.546 1.372.202 2.386.1 2.638.64.696 1.028 1.587 1.028 2.675 0 3.83-2.339 4.673-4.566 4.92.359.307.678.915.678 1.846 0 1.332-.012 2.407-.012 2.734 0 .267.18.577.688.48C19.137 20.107 22 16.373 22 11.969 22 6.463 17.522 2 12 2z"></path>
+      </svg>
+    </a>
+    <a href="https://www.instagram.com/smilesharks/" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Instagram</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+      </svg>
+    </a>
+    <a href="https://twitter.com/intent/follow?screen_name=smilesharks" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Twitter</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+      </svg>
+    </a>
+    <a href="https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1" class="ml-6 text-gray-400 hover:text-yellow-500" data-unsp-sanitized="clean">
+      <span class="sr-only">Twitter</span>
+      <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 65 50">
+        <path d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31 c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56 C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30 S64.31,19.77,63,14.87z"></path>
+        <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"></polygon>
+      </svg>
+    </a>
+  </div>
+		</div>
+		<div class="container w-full p-8 mx-auto text-sm text-black border-gray-300 sm:flex max-w-7xl sm:flex-row sm:justify-between sm:border-solid md:border-t">
+			<p class="flex sm:space-x-2">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+				</svg>
+				<span> Hecho con </span>
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+				</svg>
+				<span> / Revisa el código en </span>
+				<a class="text-yellow-500 hover:text-yellow-800" href="https://github.com/Smilesharks/smilesharks.github.io" data-unsp-sanitized="clean">Github</a>
+			</p>
+			<p class="flex items-center space-x-3 rss-subscribe">
+				<span>Suscribete</span>
+				<a href="/feed.xml">
+					<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" />
+					</svg>
+				</a>
+				<span> via RSS</span>
+			</p>
+			<span class="tracking-wide"> Copyright © Ariel Cerda 2021 </span>
+		</div>
+	</div>
+</footer>
+
+    
+  </body>
+</html>

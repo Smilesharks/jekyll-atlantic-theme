@@ -1,0 +1,66 @@
+I"2<p>En este post conoceremos los principales conceptos para combinar y alinear elementos como un verdadero profesional, más un super Pro tip</p>
+
+<p>En el <a href="http://www.arielcerda.com/01-conceptos-basicos%e2%80%8a-%e2%80%8asketch-app-en-espanol/">video anterior</a> aprendimos los conceptos básicos para la creación de las figuras esenciales dentro de Sketch, pero qué pasa cuando necesitamos un poco mas de complejidad.</p>
+
+<p><a href="https://miro.medium.com/max/208/0*R09LKKuEMRzSb8VA." title="Click para ver el link"><img src="https://miro.medium.com/max/208/0*R09LKKuEMRzSb8VA." alt="image" /></a></p>
+
+<p>En la parte superior de sketch encontramos el grupo de iconos para combinar. Tal vez uds tengan un poco diferente este panel pero si quieren personalizarlo solo deben darle Botón derecho y arrastrar los iconos que necesitan o eliminarlos.</p>
+
+<p>Comenzaremos por lo básico que es unión de dos trazos, seleccionando los trazos que queremos combinar y presionando el botón unión nos crea un grupo en nuestra lista de capas y donde podemos modificar la combinación de ellas desplegando desde la flecha en el costado izquierdo.</p>
+
+<p><a href="https://miro.medium.com/max/495/0*bP_mAmrSP1y3ZAgJ." title="Click para ver el link"><img src="https://miro.medium.com/max/495/0*bP_mAmrSP1y3ZAgJ." alt="image" /></a></p>
+
+<p>Esto se parece mucho a la creación de grupos o enmascarar con la diferencia de que Sketch nos muestra este elemento como uno solo y podemos comprobarlo en el inspector de elementos donde podemos cambiar sus características como si fuera solo uno.</p>
+
+<p>Tenemos la opción de volver a editar  los elementos combinados o cambiar el tipo de combinación que estamos usando.
+Esto es algo que por ejemplo en illustrator no podemos hacer.</p>
+
+<p>El siguiente tipo de combinación es Sustracción la cual nos permite recortar el elemento que está por debajo, y obviamente podemos volver a editar los elementos que lo conforman.</p>
+
+<p><a href="https://miro.medium.com/max/700/0*1nBvFW6fPL0GA4oF." title="Click para ver el link"><img src="https://miro.medium.com/max/700/0*1nBvFW6fPL0GA4oF." alt="image" /></a></p>
+
+<p>Intersectar funciona muy parecido al anterior, pero este solo nos muestra el espacio donde los elementos se intersectan como claramente no indica su nombre.</p>
+
+<p>Diferencia lo hace a la inversa restando donde los elementos se unen, para dominar totalmente esta parte los invito a practicar con diferentes elementos y cambiando las diferentes tipos de combinaciones.</p>
+
+<p><a href="https://miro.medium.com/max/700/0*g6AasEv1frocumW7." title="Click para ver el link"><img src="https://miro.medium.com/max/700/0*g6AasEv1frocumW7." alt="image" /></a></p>
+
+<p>Esta es solo una parte de la combinación de formas además de esto si queremos tener aún más control sobre la forma que combinamos podemos utilizar la herramienta de Flatten.</p>
+
+<p><a href="https://miro.medium.com/max/281/0*lw2276-QxLCxZ_iz." title="Click para ver el link"><img src="https://miro.medium.com/max/281/0*lw2276-QxLCxZ_iz." alt="image" /></a></p>
+
+<p>Eso sí una vez que la utilizamos perdemos la habilidad de editar los elementos por separado pero podemos usar los nodos que la construyen.</p>
+
+<p>Alinear es bastante simple, solo debemos considerar que el elemento que este mas cercano hacia donde queremos alinear será el que mande.</p>
+
+<p>Por ejemplo si quiero alinea hacia la derecha en este caso el elemento que manda es el circulo mientras que si lo hacemos a la izquierda será el cuadrado, y así para cada dirección.</p>
+
+<p><a href="https://miro.medium.com/max/458/0*oS9V-p3hJjKuNicc." title="Click para ver el link"><img src="https://miro.medium.com/max/458/0*oS9V-p3hJjKuNicc." alt="image" /></a></p>
+
+<p>Pero una de las mas útiles es la habilidad de poder distribuir los elementos seleccionados de manera ordenada de forma horizontal y vertical distribuyendo de manera igualitaria cada elemento.</p>
+
+<p> </p>
+
+<p>PRO TIP ALINEAR</p>
+
+<p><a href="https://miro.medium.com/max/492/0*L_MQfRgV9kG9xn3i." title="Click para ver el link"><img src="https://miro.medium.com/max/492/0*L_MQfRgV9kG9xn3i." alt="image" /></a></p>
+
+<p>Esto es en el caso de usuarios Avanzados.</p>
+
+<p>El usuario <a href="https://github.com/mds">Matt D. Smith</a> creo un plugin que nos ayudara a dominar y usar como todo un maestro el arte de la alineación.</p>
+
+<p>Tan fácil como lo muestra este menú, podemos mover los elementos dentro de un artboard con solo utilizar estos comandos.</p>
+
+<p><a href="https://miro.medium.com/max/281/0*L5oVTJnTkXFNWg6y." title="Click para ver el link"><img src="https://miro.medium.com/max/281/0*L5oVTJnTkXFNWg6y." alt="image" /></a></p>
+
+<p><a href="https://github.com/mds/sketch-shortcuts">https://github.com/mds/sketch-shortcuts</a></p>
+
+<p>Si tienes sugerencias o quieres seguir aprendiendo deja un comentario y <a href="https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1">suscríbete al canal</a> para mas videos como este.</p>
+
+<p>También puedes unirte a la discusión en nuestro canal de Slack<br />
+<a href="https://medium.com/sketchchile/unete-a-nuestro-canal-de-slack-72ed58cd0722">https://medium.com/sketchchile/unete-a-nuestro-canal-de-slack-72ed58cd0722</a></p>
+
+<p>o si prefieres leer alguno de nuestros capítulos en Medium<br /></p>
+
+<p><a href="https://medium.com/sketchchile">https://medium.com/sketchchile</a></p>
+:ET

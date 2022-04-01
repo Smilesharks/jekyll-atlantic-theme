@@ -1,0 +1,35 @@
+I"�	<h2 id="a-little-about-me">A little about me</h2>
+
+<p>Hello and welcome, my name is Ariel and I’m a Chilean ‘designer’ who in 2018 left everything behind to move to <a href="https://es.wikipedia.org/wiki/Aotearoa">white cloud country</a>, New Zealand.</p>
+
+<p>Professionally I’ve been working for more than 8 years in design focused on digital, video editing, but mainly in web development where I’ve had the pleasure to collaborate with great teams in a variety of industries. If you want you can check my <a href="https://www.linkedin.com/in/arielcerdahernandez/">linkedin</a> or check my <a href="https://arielcerda.com/portfolio">portfolio</a>.</p>
+
+<p>My favourite tools are:</p>
+
+<ul>
+  <li>For designing <a href="https://www.figma.com/">Figma</a></li>
+  <li>To write code <a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+  <li>Favorite framework <a href="https://tailwindcss.com/">Tailwindcss</a></li>
+  <li>to edit videos <a href="https://www.apple.com/final-cut-pro/">Final Cut Pro</a></li>
+  <li>To organize my life <a href="https://www.notion.so/">Notion.so</a></li>
+</ul>
+
+<h3 id="but-life-isnt-all-work-is-it">But life isn’t all work, is it?</h3>
+
+<p>Among the many hobbies I have, I enjoy spending my free time playing video games, watching good movies, hanging out with friends and when inspiration strikes I like to make videos on <a href="https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw?sub_confirmation=1">YouTube</a> sharing my experience of what it’s like to live abroad.</p>
+
+<p>If you have questions, send me a message on <a href="https://www.instagram.com/smilesharks/">Instagram</a>, and I’ll be happy to answer you, but you have to be patient because New Zealand is in the future and messages take a while to arrive.</p>
+
+<h3 id="about-the-blog">About the blog</h3>
+
+<p>The purpose of this blog is to document and share my experiences and experiment.</p>
+
+<p>It was created using free technology:</p>
+
+<p>For hosting the site I use <a href="https://www.netlify.com/">Netlify</a>.</p>
+
+<p>For the development <a href="https://jekyllrb.com/">Jekyll</a> 4.1+ <a href="https://tailwindcss.com/docs">Tailwind CSS</a> v2.2+ <a href="https://postcss.org/">PostCSS</a> 8.3+
+and the structure is based on the <strong><a href="https://github.com/zerostaticthemes/jekyll-atlantic-theme">Jekyll Atlantic</a></strong> theme that I then customized.</p>
+
+<p>This is version number 4.2 of the blog you can check the code in <a href="https://github.com/Smilesharks/jekyll-atlantic-theme">Github</a></p>
+:ET
