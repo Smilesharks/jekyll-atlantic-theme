@@ -37330,6 +37330,14 @@ body {
   src:url("/assets/fonts/PlusJakartaSans-Bold.woff") format("woff2");
 }
 
+@font-face{
+  font-family:Plus Jakarta Sans;
+
+  font-weight:800;
+
+  src:url("/assets/fonts/PlusJakartaSans-ExtraBold.woff") format("woff2");
+}
+
 html {
   scroll-behavior: smooth;
 }
