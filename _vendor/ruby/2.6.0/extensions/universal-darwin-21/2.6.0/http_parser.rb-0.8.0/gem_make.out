@@ -1,5 +1,5 @@
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220430-12905-lgj3ex.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220430-11515-vhu1lk.rb extconf.rb
 creating Makefile
 
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
@@ -8,6 +8,8 @@ make "DESTDIR=" clean
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make "DESTDIR="
 compiling ruby_http_parser.c
+2022-04-30 15:33:34.852 xcodebuild[11574:12283399] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-04-30 15:33:34.852 xcodebuild[11574:12283399] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
 ruby_http_parser.c:323:22: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
     keyword_ids[0] = rb_intern("default_header_value_type");
                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -465,4 +467,4 @@ ld: warning: directory not found for option '-L/System/Volumes/Data/SWE/macOS/Bu
 
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20220430-12905-1azfn04
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20220430-11515-otjv9u

@@ -1,5 +1,5 @@
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/sassc-2.4.0/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220430-12905-1w3yjbi.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220430-11515-yc30lk.rb extconf.rb
 creating Makefile
 
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -78,4 +78,4 @@ ld: warning: directory not found for option '-L/System/Volumes/Data/SWE/macOS/Bu
 
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20220430-12905-7d6bpl/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20220430-11515-1w8e3f6/sassc

@@ -1,5 +1,5 @@
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220430-12905-1y1c6w.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20220430-11515-v4k598.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -4088,4 +4088,4 @@ ld: warning: directory not found for option '-L/System/Volumes/Data/SWE/macOS/Bu
 
 current directory: /Users/arielcerda/Sites/jekyll-atlantic-theme/_vendor/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20220430-12905-1doulzw
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20220430-11515-1a9q6sk
