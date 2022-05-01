@@ -1556,8 +1556,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-7 {
   height: 1.75rem;
 }
-.h-28 {
-  height: 7rem;
+.h-16 {
+  height: 4rem;
 }
 .h-14 {
   height: 3.5rem;
@@ -1604,8 +1604,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-7 {
   width: 1.75rem;
 }
-.w-28 {
-  width: 7rem;
+.w-16 {
+  width: 4rem;
 }
 .w-14 {
   width: 3.5rem;
@@ -1916,14 +1916,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded {
   border-radius: 0.25rem;
 }
+.rounded-2xl {
+  border-radius: 1rem;
+}
 .rounded-xl {
   border-radius: 0.75rem;
 }
 .rounded-md {
   border-radius: 0.375rem;
-}
-.rounded-2xl {
-  border-radius: 1rem;
 }
 .rounded-l-md {
   border-top-left-radius: 0.375rem;
@@ -1967,6 +1967,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
 }
+.border-gray-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(17 24 39 / var(--tw-border-opacity));
+}
 .border-yellow-500 {
   --tw-border-opacity: 1;
   border-color: rgb(245 158 11 / var(--tw-border-opacity));
@@ -2003,17 +2007,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(253 230 138 / var(--tw-bg-opacity));
 }
-.bg-white {
+.bg-gray-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-transparent {
   background-color: transparent;
@@ -2037,10 +2041,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
@@ -2161,6 +2161,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2252,9 +2255,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-light {
   font-weight: 300;
 }
-.font-extrabold {
-  font-weight: 800;
-}
 .capitalize {
   text-transform: capitalize;
 }
@@ -2296,10 +2296,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(146 64 14 / var(--tw-text-opacity));
 }
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -2307,10 +2303,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .text-gray-100 {
   --tw-text-opacity: 1;
@@ -2324,9 +2316,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 .text-yellow-600 {
   --tw-text-opacity: 1;
@@ -2934,11 +2934,6 @@ html {
     padding: 2rem;
   }
 
-  .sm\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -3255,6 +3250,10 @@ html {
     padding-bottom: 12rem;
   }
 
+  .md\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -3536,11 +3535,6 @@ html {
 
   .lg\:justify-between {
     justify-content: space-between;
-  }
-
-  .lg\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .lg\:text-left {

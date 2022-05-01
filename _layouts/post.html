@@ -42,6 +42,7 @@ layout: default
     {% endfor %}
   </div>
 {% endif %}
+  <div class="space-y-6 md:space-y-12 ">
     <div class="max-w-2xl mx-auto prose prose-lg prose-img:rounded-2xl prose-amber">
       {{ content }}
     </div>
@@ -49,6 +50,7 @@ layout: default
       {% include cta.html %}
 
       {% include disqus.html disqus_identifier=page.disqus_identifier %}
+    </div>
     </div>
   </div>
 
