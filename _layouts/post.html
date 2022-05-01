@@ -14,7 +14,7 @@ layout: default
       {% include breadcrumbs.html %}
       </span>
     </div>
-    <!-- Titulo -->
+    <!-- Title -->
     {% include heading.html heading=page.title description=page.description %}
     {% include share-buttons.html %}
 
@@ -54,7 +54,7 @@ layout: default
 
   <div class="w-full pl-12 md:pt-10 md:w-4/12">
     {% if page.authors %}
-      <div class="flex flex-col hidden mb-3 md:flex md:mb-6">
+      <div class="flex-col hidden mb-3 md:flex md:mb-6">
         {% for author in page.authors %}
           {% include author-large.html
         author=author
