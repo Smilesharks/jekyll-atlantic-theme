@@ -1313,62 +1313,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .aspect-h-9 {
   --tw-aspect-h: 9;
 }
-.heading {
-    em, strong {
-    margin-bottom: 0.5rem;
-  }
-    em, strong {
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  }
-    em, strong {
-    --tw-gradient-from: #fbbf24;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 191 36 / 0));
-  }
-    em, strong {
-    --tw-gradient-to: #ef4444;
-  }
-    em, strong {
-    -webkit-background-clip: text;
-            background-clip: text;
-  }
-    em, strong {
-    color: transparent;
-  }
-    em,
-    strong {
-
-      font-weight: inherit;
-      font-style: normal;
-    }
-  }
-.logo {
-    h2 {
-      strong {
-      margin-bottom: 0.5rem;
-    }
-      strong {
-      background-image: linear-gradient(to right, var(--tw-gradient-stops));
-    }
-      strong {
-      --tw-gradient-from: #fbbf24;
-      --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 191 36 / 0));
-    }
-      strong {
-      --tw-gradient-to: #ef4444;
-    }
-      strong {
-      -webkit-background-clip: text;
-              background-clip: text;
-    }
-      strong {
-      color: transparent;
-    }
-      strong {
-        font-weight: inherit;
-        font-style: normal;
-      }
-    }
-  }
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2545,15 +2489,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
-.animation-delay-2000 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-  }
-.animation-delay-4000 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
-  }
-body {}
+body {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e }
@@ -2716,17 +2657,6 @@ body {}
     font-family:Plus Jakarta Sans;
     font-weight:800;
     src:url("/assets/fonts/PlusJakartaSans-ExtraBold.woff") format("woff2");
-}
-html {
-  scroll-behavior: smooth;
-}
-body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-}
-.dev * {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 .last\:mb-0:last-child {
   margin-bottom: 0px;
