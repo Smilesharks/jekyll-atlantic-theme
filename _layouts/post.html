@@ -5,14 +5,30 @@ layout: default
 <div class="flex flex-col py-6 md:flex-row md:py-12">
 
   
-  <div class="w-full space-y-6 md:space-y-12 md:w-8/12">
+  <div class="w-full space-y-6 md:space-y-6 md:w-8/12">
+    <!-- breadcrumbs -->
+    <div class="flex items-center space-x-2 text-xs text-gray-400">
+      {% include heading.html date=page.date %}
+      <span class="hidden text-xs font-medium text-yellow-500 md:block">//</span>
+      <span class="hidden md:block">
+      {% include breadcrumbs.html %}
+      </span>
+    </div>
     <!-- Titulo -->
-    {% include heading.html heading=page.title description=page.description align="center" date=page.date %}
+    {% include heading.html heading=page.title description=page.description %}
+    {% include share-buttons.html %}
+
     <!-- Video o image  destacada -->
-    <div class="overflow-hidden prose-xl transition duration-300 ease-in-out w-full rounded-md shadow-2xl aspect-w-16 aspect-h-9 sm:flex hover:shadow-lg">
+    <div class="w-full overflow-hidden prose-xl transition duration-300 ease-in-out rounded-md shadow-2xl aspect-w-16 aspect-h-9 sm:flex hover:shadow-lg">
       {% assign youtubeId = post.youtubeId | strip_newlines %}
       {% if page.youtubeId == ""  %}
-          <img class="object-cover w-full sm:rounded-xl " width="100%" src="{{ page.image }}" alt="{{ page.title }}" title="{{ page.title }}" />
+      
+          {% if jekyll.environment == "production" %}
+            <img class="object-cover w-full sm:rounded-xl " width="100%" src="http://images.weserv.nl/?url={{ site.url }}{{ page.image }}&w=720&output=webp&q=85" alt="{{ page.title }}" title="{{ page.title }}" />
+            {% else %}
+            <img class="object-cover w-full sm:rounded-xl " width="100%" src="{{ page.image }}" alt="{{ page.title }}" title="{{ page.title }}" />
+          {% endif %}
+
           {% else %}
           {% include youtubePlayer.html id=page.youtubeId %}
       {% endif %}
@@ -26,7 +42,7 @@ layout: default
     {% endfor %}
   </div>
 {% endif %}
-    <div class="prose prose-lg max-w-2xl mx-auto prose-yellow">
+    <div class="max-w-2xl mx-auto prose prose-lg prose-yellow">
       {{ content }}
     </div>
     <div class="space-y-6 md:space-y-12 ">
@@ -57,6 +73,7 @@ layout: default
     <div class="hidden md:block">
       {% include related.html %}
     </div>
+    <div>{% include instagram.html username="smilesharks" %}</div>
   </div>  
 
 </div>
