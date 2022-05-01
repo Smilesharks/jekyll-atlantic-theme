@@ -5,10 +5,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "assets/css/custom.css";
+/* @import "assets/css/custom.css"; */
 @import "assets/css/syntax/monokai";
-@import "assets/css/typografy";
-/* 
+/* @import "assets/css/typografy"; */
+
 html {
   scroll-behavior: smooth;
 }
@@ -74,4 +74,4 @@ body {
   .gradient-border-3 {
       border: 3px solid transparent;
   }
-} */
+}
