@@ -1313,56 +1313,62 @@ Ensure the default browser behavior of the `hidden` attribute.
 .aspect-h-9 {
   --tw-aspect-h: 9;
 }
-.heading em, .heading strong {
-  margin-bottom: 0.5rem;
-}
-.heading em, .heading strong {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-.heading em, .heading strong {
-  --tw-gradient-from: #fbbf24;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 191 36 / 0));
-}
-.heading em, .heading strong {
-  --tw-gradient-to: #ef4444;
-}
-.heading em, .heading strong {
-  -webkit-background-clip: text;
-          background-clip: text;
-}
-.heading em, .heading strong {
-  color: transparent;
-}
-.heading em,
-    .heading strong {
+.heading {
+    em, strong {
+    margin-bottom: 0.5rem;
+  }
+    em, strong {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+    em, strong {
+    --tw-gradient-from: #fbbf24;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 191 36 / 0));
+  }
+    em, strong {
+    --tw-gradient-to: #ef4444;
+  }
+    em, strong {
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+    em, strong {
+    color: transparent;
+  }
+    em,
+    strong {
 
       font-weight: inherit;
       font-style: normal;
     }
-.logo h2 strong {
-  margin-bottom: 0.5rem;
-}
-.logo h2 strong {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-.logo h2 strong {
-  --tw-gradient-from: #fbbf24;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 191 36 / 0));
-}
-.logo h2 strong {
-  --tw-gradient-to: #ef4444;
-}
-.logo h2 strong {
-  -webkit-background-clip: text;
-          background-clip: text;
-}
-.logo h2 strong {
-  color: transparent;
-}
-.logo h2 strong {
+  }
+.logo {
+    h2 {
+      strong {
+      margin-bottom: 0.5rem;
+    }
+      strong {
+      background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    }
+      strong {
+      --tw-gradient-from: #fbbf24;
+      --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 191 36 / 0));
+    }
+      strong {
+      --tw-gradient-to: #ef4444;
+    }
+      strong {
+      -webkit-background-clip: text;
+              background-clip: text;
+    }
+      strong {
+      color: transparent;
+    }
+      strong {
         font-weight: inherit;
         font-style: normal;
       }
+    }
+  }
 .sr-only {
   position: absolute;
   width: 1px;
