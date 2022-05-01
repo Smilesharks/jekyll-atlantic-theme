@@ -2090,36 +2090,6 @@ video {
   --tw-aspect-h: 16;
 }
 
-.heading em, .heading strong {
-    margin-bottom: 0.5rem;
-    background-image: linear-gradient(to right, var(--tw-gradient-stops));
-    --tw-gradient-from: #fbbf24;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 191, 36, 0));
-    --tw-gradient-to: #ef4444;
-    -webkit-background-clip: text;
-            background-clip: text;
-    color: transparent;
-  }
-
-.heading em,
-    .heading strong {
-    font-weight: inherit;
-    font-style: normal;
-  }
-
-.logo h2 strong {
-      margin-bottom: 0.5rem;
-      background-image: linear-gradient(to right, var(--tw-gradient-stops));
-      --tw-gradient-from: #fbbf24;
-      --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 191, 36, 0));
-      --tw-gradient-to: #ef4444;
-      -webkit-background-clip: text;
-              background-clip: text;
-      color: transparent;
-      font-weight: inherit;
-      font-style: normal;
-    }
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -36913,52 +36883,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.animation-delay-2000 {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-.animation-delay-4000 {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-.btn-gradient {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  --tw-gradient-from: #fbbf24;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 191, 36, 0));
-  --tw-gradient-to: #ef4444;
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-}
-
-.btn-gradient-line {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  --tw-gradient-from: #fbbf24;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(251, 191, 36, 0));
-  --tw-gradient-to: #ef4444;
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-}
-
-.border-gradient-br-blue-green-gray-900 {
-  background: linear-gradient(to right, #18181b, #18181b), linear-gradient(to bottom right, #60a5fa, #4ade80);
-  background-clip: padding-box, border-box;
-  background-origin: padding-box, border-box;
-}
-
-.hover\:border-gradient-tl-blue-green-gray-900:hover {
-  background: linear-gradient(to right, #18181b, #18181b), linear-gradient(to top left, #60a5fa, #4ade80);
-}
-
-.gradient-border-3 {
-  border: 3px solid transparent;
-}
-
 body {
 }
 
@@ -37338,6 +37262,7 @@ body {
   src:url("/assets/fonts/PlusJakartaSans-ExtraBold.woff") format("woff2");
 }
 
+/* 
 html {
   scroll-behavior: smooth;
 }
@@ -37346,11 +37271,64 @@ body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.dev * {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(239, 68, 68, var(--tw-border-opacity));
+@layer components {
+  .heading {
+    em,
+    strong {
+      @apply mb-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500;
+
+      font-weight: inherit;
+      font-style: normal;
+    }
+  }
+  .logo {
+    h2 {
+      strong {
+        @apply mb-2 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500;
+        font-weight: inherit;
+        font-style: normal;
+      }
+    }
+  }
 }
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+.dev * {
+	@apply border border-red-500;
+}
+
+@layer utilities {
+  .btn-gradient {
+    @apply text-white bg-gradient-to-r from-yellow-400 to-red-500;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+  .btn-gradient-line {
+    @apply text-white bg-gradient-to-r from-yellow-400 to-red-500;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+  .border-gradient-br-blue-green-gray-900 {
+    background: linear-gradient(to right, #18181b, #18181b), linear-gradient(to bottom right, #60a5fa, #4ade80);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+
+  .hover\:border-gradient-tl-blue-green-gray-900:hover {
+      background: linear-gradient(to right, #18181b, #18181b), linear-gradient(to top left, #60a5fa, #4ade80);
+      
+  }
+
+  .gradient-border-3 {
+      border: 3px solid transparent;
+  }
+} */
 
 @media (min-width: 640px) {
   .sm\:prose {
