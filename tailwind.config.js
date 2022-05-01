@@ -1,12 +1,13 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: [
+  content: [
+    // Example content paths...
     "./_includes/**/*.html",
     "./_layouts/**/*.html",
     "./blog/index.html"
   ],
-  darkMode: false,
   theme: {
     screens: {
       sm: "640px",
@@ -15,6 +16,9 @@ module.exports = {
       xl: "1280px",
     },
     extend: {
+      colors: {
+        yellow: colors.amber,
+      },
       animation: {
         blob: "blob 7s infinite",
       },
@@ -35,14 +39,6 @@ module.exports = {
         },
       },
     },
-  },
-  variants: {
-    extend: {
-      grayscale: ["hover", "focus"],
-      margin: ['last'],
-      translate: ['active', 'group-hover'],
-    },
-    container: [],
   },
   plugins: [
     require("@tailwindcss/typography"),
