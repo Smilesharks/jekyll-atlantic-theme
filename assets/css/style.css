@@ -4,7 +4,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
+/* 
 @import "assets/css/custom.css";
 @import "assets/css/syntax/monokai";
 @import "assets/css/typografy";
@@ -74,4 +74,4 @@ body {
   .gradient-border-3 {
       border: 3px solid transparent;
   }
-}
+} */
