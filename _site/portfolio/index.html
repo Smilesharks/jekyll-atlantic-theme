@@ -30,6 +30,31 @@
 <meta name="twitter:creator" content="@smilesharks"/>
 
 
+<!-- 
+                I’m Vengeance
+          .  .
+          |\_|\
+          | a_a\
+          | | "]
+      ____| '-\___
+     /.----.___.-'\
+    //        _    \
+   //   .-. (~v~) /|
+  |'|  /\:  .--  / \
+ // |-/  \_/____/\/~|
+|/  \ |  []_|_|_] \ |
+| \  | \ |___   _\ ]_}
+| |  '-' /   '.'  |
+| |     /    /|:  | 
+| |     |   / |:  /\
+| |     /  /  |  /  \
+| |    |  /  /  |    \
+\ |    |/\/  |/|/\    \
+ \|\ |\|  |  | / /\/\__\
+  \ \| | /   | |__
+       / |   |____)
+       |_/
+ -->
 
     <link rel="icon" href="/favicon.png">
     <link href="/assets/css/style.css" rel="stylesheet">
@@ -69,8 +94,6 @@
                 <div class="hidden logo md:block">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img class="mr-2" height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -87,8 +110,6 @@
 <div class="block logo-mobile md:hidden">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -116,72 +137,7 @@
                     </svg>
                 </button>
             </div>
-            <div :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden items-center pb-4 my-6 space-y-6 sm:space-y-0 md:pb-0 md:flex md:justify-end md:flex-row">
-            <!-- 
-            
-                
-                
-            
-            
-                
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-            
-                
-            
-                
-             -->
-            
+            <div :class="{'flex': open, 'hidden': !open}" class="flex-col items-center flex-grow hidden pb-4 my-6 space-y-6 sm:space-y-0 md:pb-0 md:flex md:justify-end md:flex-row">
             
             <a class="px-4 py-2 btn hover:text-yellow-500" href="/blog/">Blog</a>
             
@@ -217,66 +173,6 @@
       </svg>
     </a>
   </div> 
-            
-            <!-- Menu desplegable -->
-            <!-- <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                <button
-                    @click="open = !open"
-                    class="flex flex-row items-center w-full p-2 mt-2 text-lg font-normal text-left bg-transparent dark-mode:bg-transparent dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-yellow-600 focus:text-gray-100 focus:outline-none focus:shadow-outline"
-                >
-                    <span>About</span>
-                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 ml-1 -mt-1 text-yellow-500 transition-transform duration-200 transform">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-                <div
-                    x-show="open"
-                    x-transition:enter="transition ease-out duration-100"
-                    x-transition:enter-start="transform opacity-0 scale-95"
-                    x-transition:enter-end="transform opacity-100 scale-100"
-                    x-transition:leave="transition ease-in duration-75"
-                    x-transition:leave-start="transform opacity-100 scale-100"
-                    x-transition:leave-end="transform opacity-0 scale-95"
-                    class="absolute z-30 w-full mt-3 origin-top-right shadow-lg md:w-72"
-                >
-                    <div class="p-8 text-gray-100 bg-white border-yellow-500 shadow dark-mode:bg-gray-700 sm:text-gray-900 sm:border-b-4">
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-
         </div>
       </div>
   </div>
@@ -443,6 +339,14 @@
                 </div>
                 <div x-data="{}"  class="grid grid-cols-1 gap-6 md:gap-6 sm:grid-cols-4">
                     
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
                     
                         
                     
@@ -1409,6 +1313,14 @@
                         
                     
                         
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/fc/fc-01.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
                                     <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/fc/fc-01.png">
@@ -1713,6 +1625,14 @@
                 </div>
                 <div x-data="{}"  class="grid grid-cols-1 gap-6 md:gap-6 sm:grid-cols-4">
                     
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
                     
                         
                     
@@ -2762,6 +2682,14 @@
                         
                     
                         
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/01.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
                                     <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/01.png">
@@ -3138,7 +3066,6 @@
 </section>
 </div>
     <footer>
-	<!-- <script src="/assets/js/awesome.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine-ie11.min.js"></script>	
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/tgs-player.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -3156,8 +3083,6 @@
 				<div class="hidden logo md:block">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img class="mr-2" height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -3174,8 +3099,6 @@
 <div class="block logo-mobile md:hidden">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"

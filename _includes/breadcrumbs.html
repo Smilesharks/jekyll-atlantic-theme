@@ -1,11 +1,11 @@
 <div class="" id="breadcrumbs">
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+{% assign crumbs = page.url  | remove:'/index.html' | split: '/' %}
 <a class="hover:text-yellow-500" href="/">Inicio</a>
 {% for crumb in crumbs offset: 1 %}
   {% if forloop.last %}
-    / {{ page.title }}
+    / {{ page.title | slugify }}
   {% else %}
-    / <a class="hover:text-yellow-500" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+    / <a class="hover:text-yellow-500" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/'}}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
   {% endif %}
 {% endfor %}
 </div>

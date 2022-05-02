@@ -30,6 +30,31 @@
 <meta name="twitter:creator" content="@smilesharks"/>
 
 
+<!-- 
+                I’m Vengeance
+          .  .
+          |\_|\
+          | a_a\
+          | | "]
+      ____| '-\___
+     /.----.___.-'\
+    //        _    \
+   //   .-. (~v~) /|
+  |'|  /\:  .--  / \
+ // |-/  \_/____/\/~|
+|/  \ |  []_|_|_] \ |
+| \  | \ |___   _\ ]_}
+| |  '-' /   '.'  |
+| |     /    /|:  | 
+| |     |   / |:  /\
+| |     /  /  |  /  \
+| |    |  /  /  |    \
+\ |    |/\/  |/|/\    \
+ \|\ |\|  |  | / /\/\__\
+  \ \| | /   | |__
+       / |   |____)
+       |_/
+ -->
 
     <link rel="icon" href="/favicon.png">
     <link href="/assets/css/style.css" rel="stylesheet">
@@ -69,8 +94,6 @@
                 <div class="hidden logo md:block">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img class="mr-2" height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -87,8 +110,6 @@
 <div class="block logo-mobile md:hidden">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -116,72 +137,7 @@
                     </svg>
                 </button>
             </div>
-            <div :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden items-center pb-4 my-6 space-y-6 sm:space-y-0 md:pb-0 md:flex md:justify-end md:flex-row">
-            <!-- 
-            
-                
-                
-            
-            
-                
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-            
-                
-            
-                
-             -->
-            
+            <div :class="{'flex': open, 'hidden': !open}" class="flex-col items-center flex-grow hidden pb-4 my-6 space-y-6 sm:space-y-0 md:pb-0 md:flex md:justify-end md:flex-row">
             
             <a class="px-4 py-2 btn hover:text-yellow-500" href="/blog/">Blog</a>
             
@@ -217,66 +173,6 @@
       </svg>
     </a>
   </div> 
-            
-            <!-- Menu desplegable -->
-            <!-- <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                <button
-                    @click="open = !open"
-                    class="flex flex-row items-center w-full p-2 mt-2 text-lg font-normal text-left bg-transparent dark-mode:bg-transparent dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-yellow-600 focus:text-gray-100 focus:outline-none focus:shadow-outline"
-                >
-                    <span>About</span>
-                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 ml-1 -mt-1 text-yellow-500 transition-transform duration-200 transform">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-                <div
-                    x-show="open"
-                    x-transition:enter="transition ease-out duration-100"
-                    x-transition:enter-start="transform opacity-0 scale-95"
-                    x-transition:enter-end="transform opacity-100 scale-100"
-                    x-transition:leave="transition ease-in duration-75"
-                    x-transition:leave-start="transform opacity-100 scale-100"
-                    x-transition:leave-end="transform opacity-0 scale-95"
-                    class="absolute z-30 w-full mt-3 origin-top-right shadow-lg md:w-72"
-                >
-                    <div class="p-8 text-gray-100 bg-white border-yellow-500 shadow dark-mode:bg-gray-700 sm:text-gray-900 sm:border-b-4">
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-
         </div>
       </div>
   </div>
@@ -292,32 +188,11 @@
     <main class="grid gap-8 py-6 md:gap-16 md:py-6 md:grid-cols-3">
         
           
-  <a class="" href="/blog/2021-05-28-utilizar-notion-como-tu-portafolio/">
-    <div class="flex flex-col w-full space-y-4 group">
-    
-      <div class="md:w-full ">
-        <img class="transition duration-500 ease-in-out transform sm:rounded-xl rounded-lg group-hover:shadow-2xl shadow-xl group-hover:-translate-y-1" alt="Utilizar Notion como tu portafolio (Free template)" src="/assets/img/articles/notion.jpg"/>
-      </div>
-    
-      
-    <div class="flex space-x-2">
-      <div class="text-sm font-medium text-gray-600">28 May 2021</div>
-      <span class="text-xs font-medium text-yellow-600">//</span>
-      
-      <div class="text-sm font-medium text-gray-600">Web Design</div>
-      
-    </div>
-      <h3 class="group-hover:text-yellow-500 sm:text-xl text-lg font-semibold">Utilizar Notion como tu portafolio (Free template)</h3>
-      <!-- <div class="text-base font-light text-gray-600"></div> -->
-    </div>
-  </a>
-        
-          
   <a class="" href="/blog/2021-03-10-sketch-mis-plugins-indispensables-2020/">
     <div class="flex flex-col w-full space-y-4 group">
     
       <div class="md:w-full ">
-        <img class="transition duration-500 ease-in-out transform sm:rounded-xl rounded-lg group-hover:shadow-2xl shadow-xl group-hover:-translate-y-1" alt="Sketch - Mis Plugins indispensables 2020" src="/assets/img/articles/1_qb_4SIuEJxKxbxqHQ8Oj0g%20(1).gif"/>
+        <img class="transition duration-500 ease-in-out transform rounded-lg shadow-xl sm:rounded-xl group-hover:shadow-2xl group-hover:-translate-y-1" alt="Sketch - Mis Plugins indispensables 2020" src="/assets/img/articles/1_qb_4SIuEJxKxbxqHQ8Oj0g%20(1).gif"/>
       </div>
     
       
@@ -328,8 +203,7 @@
       <div class="text-sm font-medium text-gray-600">Diseño</div>
       
     </div>
-      <h3 class="group-hover:text-yellow-500 sm:text-xl text-lg font-semibold">Sketch - Mis Plugins indispensables 2020</h3>
-      <!-- <div class="text-base font-light text-gray-600"></div> -->
+      <h3 class="text-lg font-semibold group-hover:text-yellow-500 sm:text-xl">Sketch - Mis Plugins indispensables 2020</h3>
     </div>
   </a>
         
@@ -338,7 +212,7 @@
     <div class="flex flex-col w-full space-y-4 group">
     
       <div class="md:w-full ">
-        <img class="transition duration-500 ease-in-out transform sm:rounded-xl rounded-lg group-hover:shadow-2xl shadow-xl group-hover:-translate-y-1" alt="Tips para encontrar trabajo en Nueva Zelanda" src="https://img.youtube.com/vi/WpiQOge7cmE/maxresdefault.jpg"/>
+        <img class="transition duration-500 ease-in-out transform rounded-lg shadow-xl sm:rounded-xl group-hover:shadow-2xl group-hover:-translate-y-1" alt="Tips para encontrar trabajo en Nueva Zelanda" src="https://img.youtube.com/vi/WpiQOge7cmE/maxresdefault.jpg"/>
       </div>
     
       
@@ -349,8 +223,27 @@
       <div class="text-sm font-medium text-gray-600">Nueva-Zelanda</div>
       
     </div>
-      <h3 class="group-hover:text-yellow-500 sm:text-xl text-lg font-semibold">Tips para encontrar trabajo en Nueva Zelanda</h3>
-      <!-- <div class="text-base font-light text-gray-600"></div> -->
+      <h3 class="text-lg font-semibold group-hover:text-yellow-500 sm:text-xl">Tips para encontrar trabajo en Nueva Zelanda</h3>
+    </div>
+  </a>
+        
+          
+  <a class="" href="/blog/2020-10-1-tips-para-encontrar-trabajo-en-nueva-zelanda%20copy%202/">
+    <div class="flex flex-col w-full space-y-4 group">
+    
+      <div class="md:w-full ">
+        <img class="transition duration-500 ease-in-out transform rounded-lg shadow-xl sm:rounded-xl group-hover:shadow-2xl group-hover:-translate-y-1" alt="Con cuanto dinero vive un estudiante en Nueva Zelanda" src="https://img.youtube.com/vi/UPPih2kLtV8/maxresdefault.jpg"/>
+      </div>
+    
+      
+    <div class="flex space-x-2">
+      <div class="text-sm font-medium text-gray-600">17 October 2020</div>
+      <span class="text-xs font-medium text-yellow-600">//</span>
+      
+      <div class="text-sm font-medium text-gray-600">Nueva-Zelanda</div>
+      
+    </div>
+      <h3 class="text-lg font-semibold group-hover:text-yellow-500 sm:text-xl">Con cuanto dinero vive un estudiante en Nueva Zelanda</h3>
     </div>
   </a>
         
@@ -359,7 +252,7 @@
     <div class="flex flex-col w-full space-y-4 group">
     
       <div class="md:w-full ">
-        <img class="transition duration-500 ease-in-out transform sm:rounded-xl rounded-lg group-hover:shadow-2xl shadow-xl group-hover:-translate-y-1" alt="Tips y consejos si quieres emigrar - Chileno en Nueva Zelanda" src="https://img.youtube.com/vi/Z1DU0QNIP-I/maxresdefault.jpg"/>
+        <img class="transition duration-500 ease-in-out transform rounded-lg shadow-xl sm:rounded-xl group-hover:shadow-2xl group-hover:-translate-y-1" alt="Tips y consejos si quieres emigrar - Chileno en Nueva Zelanda" src="https://img.youtube.com/vi/Z1DU0QNIP-I/maxresdefault.jpg"/>
       </div>
     
       
@@ -370,8 +263,7 @@
       <div class="text-sm font-medium text-gray-600">Nueva-Zelanda</div>
       
     </div>
-      <h3 class="group-hover:text-yellow-500 sm:text-xl text-lg font-semibold">Tips y consejos si quieres emigrar - Chileno en Nueva Zelanda</h3>
-      <!-- <div class="text-base font-light text-gray-600"></div> -->
+      <h3 class="text-lg font-semibold group-hover:text-yellow-500 sm:text-xl">Tips y consejos si quieres emigrar - Chileno en Nueva Zelanda</h3>
     </div>
   </a>
         
@@ -380,7 +272,7 @@
     <div class="flex flex-col w-full space-y-4 group">
     
       <div class="md:w-full ">
-        <img class="transition duration-500 ease-in-out transform sm:rounded-xl rounded-lg group-hover:shadow-2xl shadow-xl group-hover:-translate-y-1" alt="Cosas que he cambiado después de dos años viviendo en nueva zelanda" src="https://img.youtube.com/vi/4hzhnkH0me4/maxresdefault.jpg"/>
+        <img class="transition duration-500 ease-in-out transform rounded-lg shadow-xl sm:rounded-xl group-hover:shadow-2xl group-hover:-translate-y-1" alt="Cosas que he cambiado después de dos años viviendo en nueva zelanda" src="https://img.youtube.com/vi/4hzhnkH0me4/maxresdefault.jpg"/>
       </div>
     
       
@@ -391,8 +283,7 @@
       <div class="text-sm font-medium text-gray-600">Nueva-Zelanda</div>
       
     </div>
-      <h3 class="group-hover:text-yellow-500 sm:text-xl text-lg font-semibold">Cosas que he cambiado después de dos años viviendo en nueva zelanda</h3>
-      <!-- <div class="text-base font-light text-gray-600"></div> -->
+      <h3 class="text-lg font-semibold group-hover:text-yellow-500 sm:text-xl">Cosas que he cambiado después de dos años viviendo en nueva zelanda</h3>
     </div>
   </a>
         
@@ -401,7 +292,7 @@
     <div class="flex flex-col w-full space-y-4 group">
     
       <div class="md:w-full ">
-        <img class="transition duration-500 ease-in-out transform sm:rounded-xl rounded-lg group-hover:shadow-2xl shadow-xl group-hover:-translate-y-1" alt="Que nivel de ingles necesito para vivir en Nueva zelanda" src="https://img.youtube.com/vi/9LTWRcBxec0/maxresdefault.jpg"/>
+        <img class="transition duration-500 ease-in-out transform rounded-lg shadow-xl sm:rounded-xl group-hover:shadow-2xl group-hover:-translate-y-1" alt="Que nivel de ingles necesito para vivir en Nueva zelanda" src="https://img.youtube.com/vi/9LTWRcBxec0/maxresdefault.jpg"/>
       </div>
     
       
@@ -412,8 +303,7 @@
       <div class="text-sm font-medium text-gray-600">Nueva-Zelanda</div>
       
     </div>
-      <h3 class="group-hover:text-yellow-500 sm:text-xl text-lg font-semibold">Que nivel de ingles necesito para vivir en Nueva zelanda</h3>
-      <!-- <div class="text-base font-light text-gray-600"></div> -->
+      <h3 class="text-lg font-semibold group-hover:text-yellow-500 sm:text-xl">Que nivel de ingles necesito para vivir en Nueva zelanda</h3>
     </div>
   </a>
         
@@ -422,16 +312,16 @@
       
       <section class="pb-6 md:pb-12">
 <div class="flex items-center justify-between sm:px-6">
-  <div class="flex-1 flex justify-between sm:hidden">
+  <div class="flex justify-between flex-1 sm:hidden">
 
   
-    <a href="/blog/" class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+    <a href="/blog/" class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
       Previous
     </a>
     
 
   
-    <a href="/blog/page3/" class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+    <a href="/blog/page3/" class="relative inline-flex items-center px-4 py-2 ml-3 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
       Next
     </a>
   
@@ -450,13 +340,12 @@
     </div>
 
     <div>
-      <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
+      <nav class="relative z-0 inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
 
         
-          <a href="/blog/" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+          <a href="/blog/" class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-l-md hover:bg-gray-50">
             <span class="sr-only">Previous</span>
-            <!-- Heroicon name: solid/chevron-left -->
-            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
             </svg>
           </a>
@@ -464,35 +353,34 @@
 
         
           
-            <a href="/blog/" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+            <a href="/blog/" class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 hover:bg-gray-50">
               1
             </a>
           
         
           
-          <a href="#" aria-current="page" class="z-10 bg-yellow-50 border-yellow-500 text-yellow-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+          <a href="#" aria-current="page" class="relative z-10 inline-flex items-center px-4 py-2 text-sm font-medium text-yellow-600 border border-yellow-500 bg-yellow-50">
             2
           </a>
           
         
           
-          <a href="/blog/page3/" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+          <a href="/blog/page3/" class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 hover:bg-gray-50">
             3
           </a>
           
         
           
-          <a href="/blog/page4/" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium">
+          <a href="/blog/page4/" class="relative inline-flex items-center px-4 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 hover:bg-gray-50">
             4
           </a>
           
         
 
         
-          <a href="/blog/page3/" class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+          <a href="/blog/page3/" class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-r-md hover:bg-gray-50">
             <span class="sr-only">Next</span>
-            <!-- Heroicon name: solid/chevron-right -->
-            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
             </svg>
           </a>
@@ -508,7 +396,6 @@
 </div>
 
     <footer>
-	<!-- <script src="/assets/js/awesome.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine-ie11.min.js"></script>	
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/tgs-player.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -526,8 +413,6 @@
 				<div class="hidden logo md:block">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img class="mr-2" height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -544,8 +429,6 @@
 <div class="block logo-mobile md:hidden">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
