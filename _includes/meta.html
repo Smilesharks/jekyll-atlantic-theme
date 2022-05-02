@@ -20,6 +20,7 @@
 {% endif %}
 <meta content="website" property="og:type"/>
 <meta property="og:url" content="{{ page.url }}"/>
+<meta property="fb:app_id" content="{{ site.facebook_app_id }}" />
 {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}"/>
 {% elsif site.seo.meta_og_image %}

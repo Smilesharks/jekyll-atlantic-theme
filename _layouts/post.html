@@ -47,6 +47,7 @@ layout: default
       {{ content }}
     </div>
     <div class="space-y-6 md:space-y-12 ">
+      {% include share-buttons.html %}
       {% include cta.html %}
 
       {% include disqus.html disqus_identifier=page.disqus_identifier %}

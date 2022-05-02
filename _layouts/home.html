@@ -21,7 +21,7 @@ layout: full-width
                     <h2 class="text-xl font-light prose text-white ">Soy diseñador desde hace mas de 8 años, actualmente vivo en Auckalnd, Nueva Zelanda y cada vez que puedo hago videos o escribo sobre mi experiencia</h2>
                     <div class="flex flex-row space-x-4">
                     <a href="/blog" class="relative group">
-                        <div class="absolute inset-0 group-hover:-inset-4 bg-gradient-to-r from-blue-500 to-green-500 filter blur-xl opacity-40 "></div>
+                        <div class="absolute group-hover:inset-0 -inset-4 bg-gradient-to-r from-blue-500 to-green-500 filter blur-xl opacity-40 "></div>
                         <span class="relative inline-flex items-center px-8 py-4 space-x-1 text-white transition duration-500 bg-black border border-gray-800 shadow-xl group-hover:text-yellow-500 rounded-xl hover:shadow ">Artículos</span>
                     </a>
                     <a href="/about" class="z-10 inline-flex items-center px-3 py-2 space-x-1 text-white transition duration-500 bg-black border border-gray-800 shadow-xl group-hover:text-yellow-500 group-hover:border-white group-hover:border-2 rounded-xl hover:shadow ">
@@ -123,7 +123,7 @@ layout: full-width
             <p>Algunos proyectos personales</p>
         </div>
         <div class="grid grid-cols-2 gap-6 sm:grid-cols-4">
-          {% for minipro in site.minipro %} {{ minipro.content | markdownify }}
+          {% for minipro in site.minipro reversed %} {{ minipro.content | markdownify }}
           <a class="space-y-6" href="{{ minipro.link }}">
             <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
               <img class="rounded-lg" src="{{ minipro.img | prepend: site.baseurl }}" alt="{{ minipro.title }}" title="{{ minipro.title }}" />

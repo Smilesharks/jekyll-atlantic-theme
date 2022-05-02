@@ -6,10 +6,10 @@
   {% if author_object.image %}
     <img height="48" width="48" class="border-2 border-white rounded-full" src="{{ author_object.image | relative_url }}" alt="{{ author_object.name }}"/>
   {% endif %}
-  <div class="flex flex-col space-y-2">
-    <span class="block ml-1 text-sm font-medium">{{ author_object.name }}</span>
-    <a class="block ml-1 text-sm text-yellow-500" href="https://www.twitter.com/{{ author_object.twitter }}">{{ author_object.twitter }}</a>
-    {% include icons.html %}
+  <div class="flex flex-col space-y-2 ">
+    <span class="block text-sm font-bold">{{ author_object.name }}</span>
+    <span class="block text-sm text-gray-500">{{ site.description }}</span>
+
   </div>
 </div>
 {% endif %}

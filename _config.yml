@@ -14,6 +14,8 @@ sass:
 
 google_analytics_id: UA-89023908-1 # replace with "UA-XXXX"
 disqus: smilesharks
+#Facebook Sharing
+facebook_app_id: 1004526853524623
 
 logo:
   logo_desktop_image: assets/images/logo/logo.svg
