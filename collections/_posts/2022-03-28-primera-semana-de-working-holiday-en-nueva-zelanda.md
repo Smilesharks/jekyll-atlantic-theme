@@ -102,7 +102,7 @@ La elección del tipo de transporte para moverte por Nueva Zelanda es muy import
 
 ### Explora y diviértete en tu ciudad de llegada.
 
-![FIesta Auckland](http://images.weserv.nl/?url={{ site.url }}/assets/img/articles/party.jpg&w=720&output=webp&q=85)
+![FIesta Auckland](/assets/img/articles/party.webp)
 
 Los últimos días han estado llenos de nuevas experiencias y trámites, pero estás en Nueva Zelanda para divertirte y conocer. Ahora es un buen momento para explorar tu ciudad, las playas y atractivos turísticos y todo lo que tiene que ofrecer mientras esperas que lleguen tus tarjetas y documentos.
 
