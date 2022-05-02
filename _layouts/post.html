@@ -23,11 +23,7 @@ layout: default
       {% assign youtubeId = post.youtubeId | strip_newlines %}
       {% if page.youtubeId == ""  %}
       
-          {% if jekyll.environment == "production" %}
-            <img class="object-cover w-full sm:rounded-xl " width="100%" src="http://images.weserv.nl/?url={{ site.url }}{{ page.image }}&w=720&output=webp&q=85" alt="{{ page.title }}" title="{{ page.title }}" />
-            {% else %}
             <img class="object-cover w-full sm:rounded-xl " width="100%" src="{{ page.image }}" alt="{{ page.title }}" title="{{ page.title }}" />
-          {% endif %}
 
           {% else %}
           {% include youtubePlayer.html id=page.youtubeId %}
