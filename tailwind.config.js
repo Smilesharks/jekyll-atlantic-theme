@@ -1,12 +1,10 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
-    // Example content paths...
     "./_includes/**/*.html",
     "./_layouts/**/*.html",
-    "./blog/index.html"
+    "./blog/index.html",
   ],
   theme: {
     screens: {

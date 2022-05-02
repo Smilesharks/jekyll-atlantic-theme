@@ -2499,7 +2499,7 @@ body {
 	font-family: 'Plus Jakarta Sans', sans-serif;
 }
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #272822; }
