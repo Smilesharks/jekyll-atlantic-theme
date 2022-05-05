@@ -11,7 +11,7 @@ image: "/assets/img/articles/about-pic.jpg"
 
 You don't speak Spanish, no problem: [English Version](https://arielcerda.com/about-en/)
 
-Hola y bienvenido, mi nombre es Ariel y soy un ‘diseñador’ Chileno que en el año 2018 vendió todo para mudarse al [país de la nube blanca](https://es.wikipedia.org/wiki/Aotearoa), Nueva Zelanda.
+Hola y bienvenido, mi nombre es Ariel y soy un ‘diseñador’ Chileno que en el año 2018 [vendió todo para mudarse](/blog/2018-09-25-los-primeros-traumaticos-dias-del-viaje-que-espero-cambiara-mi-vida/) al [país de la nube blanca](https://es.wikipedia.org/wiki/Aotearoa), Nueva Zelanda.
 
 En lo profesional llevo más de 8 años trabajando en diseño enfocado en el área digital, edición de video, pero principalmente en desarrollo web donde he tenido el placer de colaborar con grandes equipos en una variedad de industrias. Si quieres curiosear puedes revisar mi [linkedin](https://www.linkedin.com/in/arielcerdahernandez/) o revisar mi [portafolio](https://arielcerda.com/portfolio).
 
@@ -37,7 +37,7 @@ Fue creado utilizando tecnología gratuita:
 
 Para hospedar el sitio utilizo [Netlify](https://www.netlify.com/)
 
-Para el desarrollo [Jekyll](https://jekyllrb.com/) 4.1+ [Tailwind CSS](https://tailwindcss.com/docs) v2.2+ [PostCSS](https://postcss.org/) 8.3+
+Para el desarrollo [Jekyll](https://jekyllrb.com/) 4.1+ [Tailwind CSS](https://tailwindcss.com/docs) v3.0+ [PostCSS](https://postcss.org/) 8.4+
 y la estructura esta basada en el tema **[Jekyll Atlantic](https://github.com/zerostaticthemes/jekyll-atlantic-theme)** que luego personalice.
 
-Esta es la versión número 4.2 del blog puedes revisar el código en [Github](https://github.com/Smilesharks/jekyll-atlantic-theme)
+Esta es la versión número 4.4 del blog puedes revisar el código en [Github](https://github.com/Smilesharks/jekyll-atlantic-theme)

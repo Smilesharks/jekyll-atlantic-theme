@@ -14,6 +14,8 @@ sass:
 
 google_analytics_id: UA-89023908-1 # replace with "UA-XXXX"
 disqus: smilesharks
+#Facebook Sharing
+facebook_app_id: 1004526853524623
 
 logo:
   logo_desktop_image: assets/images/logo/logo.svg
@@ -43,7 +45,7 @@ social:
     - https://www.instagram.com/smilesharks/
     - https://www.youtube.com/channel/UCWip2TrjNMXb0kg6LWbsNzw
 
-url: "https://www.arielcerda.com/" # the base hostname & protocol for your site
+url: "https://www.arielcerda.com" # the base hostname & protocol for your site
 
 plugins:
   - jekyll-environment-variables
@@ -64,6 +66,22 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+
+# defaults:
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: post
+#   - scope:
+#       path: "images"
+#     values:
+#       image: true
+#   - scope:
+#       path: "categories"
+#     values:
+#       layout: category
+#       permalink: /category/:basename/
 
 exclude:
   - Gemfile

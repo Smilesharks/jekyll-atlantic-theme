@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
@@ -19,6 +19,7 @@
 
 <meta content="website" property="og:type"/>
 <meta property="og:url" content="/portfolio/"/>
+<meta property="fb:app_id" content="1004526853524623" />
 
   <meta property="og:image" content="https://arielcerda.com/assets/img/ariel-cerda.jpg"/>
 
@@ -28,7 +29,31 @@
 
 <meta name="twitter:creator" content="@smilesharks"/>
 
-
+    <!-- 
+                I’m Vengeance
+          .  .
+          |\_|\
+          | a_a\
+          | | "]
+      ____| '-\___
+     /.----.___.-'\
+    //        _    \
+   //   .-. (~v~) /|
+  |'|  /\:  .--  / \
+ // |-/  \_/____/\/~|
+|/  \ |  []_|_|_] \ |
+| \  | \ |___   _\ ]_}
+| |  '-' /   '.'  |
+| |     /    /|:  | 
+| |     |   / |:  /\
+| |     /  /  |  /  \
+| |    |  /  /  |    \
+\ |    |/\/  |/|/\    \
+ \|\ |\|  |  | / /\/\__\
+  \ \| | /   | |__
+       / |   |____)
+       |_/
+ -->
 
     <link rel="icon" href="/favicon.png">
     <link href="/assets/css/style.css" rel="stylesheet">
@@ -51,7 +76,7 @@
     
     <a class="py-2" href="/about/">About</a>
     
-    <a class="py-2" href="#subscribe">Subscribe</a>
+    <a class="py-2" href="http://eepurl.com/hy4Njj">Subscribe</a>
     
   </div>
 </div>
@@ -68,8 +93,6 @@
                 <div class="hidden logo md:block">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img class="mr-2" height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -79,15 +102,13 @@
             </lottie-player>
     
     
-    <h2 class="text-2xl font-extrabold">Ariel Cerda</h2>
+    <h2 class="font-sans text-2xl font-semibold">Ariel Cerda</h2>
     
   </a>
 </div>
 <div class="block logo-mobile md:hidden">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -97,7 +118,7 @@
             </lottie-player>
     
     
-    <h2 class="text-2xl font-extrabold"></h2>
+    <h2 class="font-sans text-2xl font-semibold"></h2>
     
   </a>
 </div>      
@@ -115,78 +136,13 @@
                     </svg>
                 </button>
             </div>
-            <div :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden items-center pb-4 my-6 space-y-6 sm:space-y-0 md:pb-0 md:flex md:justify-end md:flex-row">
-            <!-- 
-            
-                
-                
-            
-            
-                
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-                
-            
-            
-                
-            
-                
-            
-                
-             -->
-            
+            <div :class="{'flex': open, 'hidden': !open}" class="flex-col items-center flex-grow hidden pb-4 my-6 space-y-6 sm:space-y-0 md:pb-0 md:flex md:justify-end md:flex-row">
             
             <a class="px-4 py-2 btn hover:text-yellow-500" href="/blog/">Blog</a>
             
             <a class="px-4 py-2 btn hover:text-yellow-500" href="/about/">About</a>
             
-            <a class="px-4 py-2 btn hover:text-yellow-500" href="#subscribe">Subscribe</a>
+            <a class="px-4 py-2 btn hover:text-yellow-500" href="http://eepurl.com/hy4Njj">Subscribe</a>
             
 
             <div class="flex">
@@ -216,66 +172,6 @@
       </svg>
     </a>
   </div> 
-            
-            <!-- Menu desplegable -->
-            <!-- <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                <button
-                    @click="open = !open"
-                    class="flex flex-row items-center w-full p-2 mt-2 text-lg font-normal text-left bg-transparent dark-mode:bg-transparent dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-yellow-600 focus:text-gray-100 focus:outline-none focus:shadow-outline"
-                >
-                    <span>About</span>
-                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 ml-1 -mt-1 text-yellow-500 transition-transform duration-200 transform">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                </button>
-                <div
-                    x-show="open"
-                    x-transition:enter="transition ease-out duration-100"
-                    x-transition:enter-start="transform opacity-0 scale-95"
-                    x-transition:enter-end="transform opacity-100 scale-100"
-                    x-transition:leave="transition ease-in duration-75"
-                    x-transition:leave-start="transform opacity-100 scale-100"
-                    x-transition:leave-end="transform opacity-0 scale-95"
-                    class="absolute z-30 w-full mt-3 origin-top-right shadow-lg md:w-72"
-                >
-                    <div class="p-8 text-gray-100 bg-white border-yellow-500 shadow dark-mode:bg-gray-700 sm:text-gray-900 sm:border-b-4">
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                        <a
-                            class="block p-2 mt-2 text-lg font-normal transform bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-black dark-mode:hover:text-black dark-mode:text-gray-200 md:mt-0 hover:text-gray-800 focus:text-gray-100 focus:outline-none focus:shadow-outline hover:translate-x-2"
-                            href="#"
-                        >
-                            <p class="text-base font-medium leading-6">
-                                Small
-                            </p>
-                            <p class="text-sm leading-5">
-                                Learn about tips, product updates and company culture.
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-
         </div>
       </div>
   </div>
@@ -283,98 +179,97 @@
 </nav>
       <div class="space-y-12 overflow-x-hidden md:space-y-32">
 <!-- Hero -->
-<div class="bg-black py-12">
-<div class="container px-6 mx-auto md:px-0">
-<div class="flex flex-col justify-between mx-auto item lg:flex-row">
-    <div class="flex flex-col items-center justify-center md:w-1/2 ">
-        <div class="space-y-6">
-            <div class="space-y-6 text-white max-w-md" data-aos="fade-up" data-aos-delay="200">
-                <h1 class="text-5xl font-bold tracking-wide ">I design interfaces that users love</h1>
-                <p class="text-2xl font-light ">Over 7 years of industry experience as a designer building user interfaces, websites and applications.</p>
-                <div class="flex flex-row space-x-4">
-                <a href="#portfolio" class="relative group">
-                    <div class="absolute inset-0 group-hover:-inset-4  bg-gradient-to-r from-yellow-500 to-pink-500 filter blur-2xl opacity-40 "></div>
-                    <span class="relative inline-flex items-center px-8 py-4 space-x-1 text-white group-hover:text-yellow-500 transition duration-500 rounded-xl shadow-xl hover:shadow bg-black ">View projects</span>
-                </a>
-                <a href="/about-en" class="inline-flex items-center px-3 py-2 space-x-1 text-white group-hover:text-yellow-500 bg-black transition duration-500 border border-gray-600 group-hover:border-white group-hover:border-2 rounded-xl shadow-xl hover:shadow ">
-                    <span>About me</span>
-                </a>
+ <div class="pt-4 pb-16 bg-black md:py-12">
+    <div class="container px-6 mx-auto md:px-0">
+    <div class="flex flex-col mx-auto -space-y-16 space-y-reverse md:space-y-0 md:justify-between item lg:flex-row">
 
+        <div class="z-10 flex flex-col items-center justify-center md:z-0 md:w-1/2 ">
+            <div class="space-y-6">
+                <div class="max-w-md space-y-6 text-white" data-aos="fade-up" data-aos-delay="0">
+                    <div class="text-sm font-bold tracking-wide text-yellow-500 "><span class="text-xl ">👋</span> Hey, I’m Ariel.</div>
+                    <h3 class="text-3xl font-bold tracking-wide md:text-5xl ">I design interfaces that users love</h3>
+                    <h2 class="text-xl font-light prose text-white ">Over 8 years of industry experience as a designer building user interfaces, websites and applications.</h2>
+                    <div class="flex flex-row space-x-4">
+                    <a href="#portfolio" class="group">
+                        <span class="inline-flex items-center px-8 py-4 text-black transition duration-500 bg-yellow-500 border border-yellow-500 shadow-xl group-hover:bg-yellow-400 group-hover:border-yellow-600 rounded-xl ">View projects</span>
+                    </a>
+                    <a href="/about-en" class="group">
+                        <span class="inline-flex items-center px-8 py-4 text-white transition duration-500 bg-black border border-gray-800 shadow-xl group-hover:bg-gray-900 group-hover:text-yellow-500 rounded-xl">About me</span>
+                    </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="relative items-end justify-center hidden md:flex md:w-1/2 ">
-        <svg data-aos="fade-right" data-aos-delay="200" class="absolute text-gray-800 inset-0 object-cover "viewBox="0 0 452 341" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path opacity="0.3" d="M415.982 38.4336H378.249V76.1668H415.982V38.4336Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M415.982 189.367H378.249V227.1H415.982V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M453.715 189.367H415.982V227.1H453.715V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M189.583 189.367H151.849V227.1H189.583V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 38.4336H265.049V76.1668H302.782V38.4336Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 189.367H265.049V227.1H302.782V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M415.982 113.9H378.249V151.633H415.982V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M189.583 113.9H151.849V151.633H189.583V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 113.9H265.049V151.633H302.782V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 264.833H265.049V302.566H302.782V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M415.982 76.1667H378.249V113.9H415.982V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M453.715 76.1667H415.982V113.9H453.715V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M415.982 227.1H378.249V264.833H415.982V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M189.583 227.1H151.849V264.833H189.583V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 76.1667H265.049V113.9H302.782V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 227.1H265.049V264.833H302.782V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M189.583 151.633H151.849V189.367H189.583V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M454.096 302.566H416.363V340.3H454.096V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 151.633H265.049V189.367H302.782V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M302.782 302.566H265.049V340.3H302.782V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M76.3828 302.566H38.6496V340.3H76.3828V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M378.249 189.367H340.516V227.1H378.249V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M151.849 189.367H114.116V227.1H151.849V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M38.6494 38.4336H0.916165V76.1668H38.6494V38.4336Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M265.049 189.367H227.316V227.1H265.049V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M378.249 113.9H340.516V151.633H378.249V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M151.849 113.9H114.116V151.633H151.849V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M265.049 113.9H227.316V151.633H265.049V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M265.049 264.833H227.316V302.566H265.049V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M38.6494 264.833H0.916165V302.566H38.6494V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M378.249 227.1H340.516V264.833H378.249V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M151.849 227.1H114.116V264.833H151.849V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M265.049 227.1H227.316V264.833H265.049V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M378.249 151.633H340.516V189.367H378.249V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M151.849 151.633H114.116V189.367H151.849V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M265.049 151.633H227.316V189.367H265.049V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M265.049 302.566H227.316V340.3H265.049V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M340.516 0.700317H302.782V38.4336H340.516V0.700317Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M340.516 189.367H302.782V227.1H340.516V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M114.116 189.367H76.3827V227.1H114.116V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M227.316 189.367H189.582V227.1H227.316V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M340.516 113.9H302.782V151.633H340.516V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M340.516 264.833H302.782V302.566H340.516V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M114.116 264.833H76.3827V302.566H114.116V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M227.316 113.9H189.582V151.633H227.316V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M227.316 264.833H189.582V302.566H227.316V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M340.516 76.1667H302.782V113.9H340.516V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M340.516 227.1H302.782V264.833H340.516V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M227.316 76.1667H189.582V113.9H227.316V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M227.316 227.1H189.582V264.833H227.316V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M340.516 151.633H302.782V189.367H340.516V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-            <path opacity="0.3" d="M227.316 151.633H189.582V189.367H227.316V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
-        </svg>
-
-        <div data-aos="fade-left" class="relative flex max-w-lg ">
-            <div class="absolute bg-gradient-to-r from-yellow-500 to-pink-500 mx-28 my-24 transform -translate-y-12 rotate-6 opacity-30 filter blur-3xl rounded-full inset-0"></div>
-            <img src="../assets/img/profilepic.png" class="relative filter grayscale mt-12 backdrop-contrast-75 inset-0 object-cover " />
+        <div class="relative items-end justify-center order-first md:order-last md:flex md:w-1/2 ">
+            <svg data-aos="fade-right" data-aos-delay="200" class="absolute inset-0 hidden object-cover text-gray-800 md:block "viewBox="0 0 452 341" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" d="M415.982 38.4336H378.249V76.1668H415.982V38.4336Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M415.982 189.367H378.249V227.1H415.982V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M453.715 189.367H415.982V227.1H453.715V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M189.583 189.367H151.849V227.1H189.583V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 38.4336H265.049V76.1668H302.782V38.4336Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 189.367H265.049V227.1H302.782V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M415.982 113.9H378.249V151.633H415.982V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M189.583 113.9H151.849V151.633H189.583V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 113.9H265.049V151.633H302.782V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 264.833H265.049V302.566H302.782V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M415.982 76.1667H378.249V113.9H415.982V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M453.715 76.1667H415.982V113.9H453.715V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M415.982 227.1H378.249V264.833H415.982V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M189.583 227.1H151.849V264.833H189.583V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 76.1667H265.049V113.9H302.782V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 227.1H265.049V264.833H302.782V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M189.583 151.633H151.849V189.367H189.583V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M454.096 302.566H416.363V340.3H454.096V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 151.633H265.049V189.367H302.782V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M302.782 302.566H265.049V340.3H302.782V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M76.3828 302.566H38.6496V340.3H76.3828V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M378.249 189.367H340.516V227.1H378.249V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M151.849 189.367H114.116V227.1H151.849V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M38.6494 38.4336H0.916165V76.1668H38.6494V38.4336Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M265.049 189.367H227.316V227.1H265.049V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M378.249 113.9H340.516V151.633H378.249V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M151.849 113.9H114.116V151.633H151.849V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M265.049 113.9H227.316V151.633H265.049V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M265.049 264.833H227.316V302.566H265.049V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M38.6494 264.833H0.916165V302.566H38.6494V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M378.249 227.1H340.516V264.833H378.249V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M151.849 227.1H114.116V264.833H151.849V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M265.049 227.1H227.316V264.833H265.049V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M378.249 151.633H340.516V189.367H378.249V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M151.849 151.633H114.116V189.367H151.849V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M265.049 151.633H227.316V189.367H265.049V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M265.049 302.566H227.316V340.3H265.049V302.566Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M340.516 0.700317H302.782V38.4336H340.516V0.700317Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M340.516 189.367H302.782V227.1H340.516V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M114.116 189.367H76.3827V227.1H114.116V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M227.316 189.367H189.582V227.1H227.316V189.367Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M340.516 113.9H302.782V151.633H340.516V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M340.516 264.833H302.782V302.566H340.516V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M114.116 264.833H76.3827V302.566H114.116V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M227.316 113.9H189.582V151.633H227.316V113.9Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M227.316 264.833H189.582V302.566H227.316V264.833Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M340.516 76.1667H302.782V113.9H340.516V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M340.516 227.1H302.782V264.833H340.516V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M227.316 76.1667H189.582V113.9H227.316V76.1667Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M227.316 227.1H189.582V264.833H227.316V227.1Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M340.516 151.633H302.782V189.367H340.516V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+                <path opacity="0.3" d="M227.316 151.633H189.582V189.367H227.316V151.633Z" stroke="currentColor" stroke-dasharray="0.76 1.91"/>
+            </svg>
+            <div data-aos="fade-left" class="relative flex max-w-lg ">
+                <div class="absolute inset-0 mx-8 my-12 transform -translate-y-12 rounded-full opacity-50 bg-gradient-to-r from-yellow-500 to-pink-500 md:mx-28 md:my-24 animate-blob rotate-6 filter blur-3xl"></div>
+                <img src="../assets/img/profilepic.png" alt="Ariel Cerda" class="relative inset-0 object-cover filter grayscale md:mt-12 -backdrop-contrast-75 " />
+            </div>
         </div>
     </div>
-</div>
-</div>
-</div>
+    </div>
+    </div>
 <!-- Projecto -->
-<section class="space-y-12 md:space-y-64 container px-6 mx-auto md:px-0" id="portfolio">
+<section class="container px-6 mx-auto space-y-12 md:space-y-64 md:px-0" id="portfolio">
      
 
-    <div class="md:space-y-32 space-y-16  ">
-        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-yellow">
-            <div class=" order-last md:order-first md:space-y-24 space-y-12 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
+    <div class="space-y-16 md:space-y-32 ">
+        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-amber">
+            <div class="order-last space-y-12 md:order-first md:space-y-24 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
                 <!-- <span class="text-sm font-light text-gray-300">Dev</span> -->
                 <div class="space-y-8">
                     <h3 class="relative z-10 text-5xl font-bold">MOVIE PREMIERE REMINDER</h3>
@@ -397,37 +292,37 @@
                     <div class="grid md:grid-cols-2 gap-x-12 md:gap-x-24 md:gap-y-12 gap-y-6 ">
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">The problem</span>
-                            <div class="prose prose-sm">There wasn't any app that would create reminders of upcoming movie premieres so I decided to make one by myself.</div>
+                            <div class="prose-sm prose">There wasn't any app that would create reminders of upcoming movie premieres so I decided to make one by myself.</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">The goal</span>
-                            <div class="prose prose-sm">Create a tool to satisfy my needs and those of other potential users, practice interface design skills, user experience and web development.</div>
+                            <div class="prose-sm prose">Create a tool to satisfy my needs and those of other potential users, practice interface design skills, user experience and web development.</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Client</span>
-                            <div class="prose prose-sm">Personal project</div>
+                            <div class="prose-sm prose">Personal project</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Platform</span>
-                            <div class="prose prose-sm">Web</div>
+                            <div class="prose-sm prose">Web</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Agency</span>
-                            <div class="prose prose-sm">--</div>
+                            <div class="prose-sm prose">--</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Role</span>
-                            <div class="prose prose-sm">UX / UI / DEV</div>
+                            <div class="prose-sm prose">UX / UI / DEV</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="md:space-y-2 md:col-span-2" data-aos="fade-up" data-aos-delay="0">
                 <div class="relative z-0 w-full " >
-                    <div class="absolute top-0 bg-red-500 rounded-full w-48 h-48 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
-                    <div class="absolute top-0 bg-yellow-500 rounded-full w-48 h-48 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
-			        <div class="absolute bg-pink-500 rounded-full w-48 h-48 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
-                    <img data-aos="fade-left" data-aos-delay="100" class="relative" src="http://localhost:4000/assets/img/cover/md-cover.png" alt="MOVIE PREMIERE REMINDER" title="MOVIE PREMIERE REMINDER" />
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-red-500/30 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-yellow-500/30 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
+			        <div class="absolute w-48 h-48 rounded-full bg-pink-500/30 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
+                    <img data-aos="fade-left"  class="relative" src="http://localhost:4000/assets/img/cover/md-cover.png" alt="MOVIE PREMIERE REMINDER" title="MOVIE PREMIERE REMINDER" />
                 </div>
             </div>
 
@@ -435,13 +330,33 @@
             <!-- Multimedia -->
             <div class="flex flex-col space-y-12 md:space-y-24 sm:col-span-2">
             <!-- Imagenes -->
-            <div class="md:space-y-24 space-y-12" data-aos="fade" data-aos-delay="100">
-                <div class="md:text-center space-y-4">
-                    <h3 class=" text-sm font-light">MOVIE PREMIERE REMINDER</h3>
+            <div class="space-y-12 md:space-y-24" data-aos="fade">
+                <div class="space-y-4 md:text-center">
+                    <h3 class="text-sm font-light ">MOVIE PREMIERE REMINDER</h3>
                     <h6 class="text-4xl font-bold ">Previews design / Concept</h6>
                 </div>
                 <div x-data="{}"  class="grid grid-cols-1 gap-6 md:gap-6 sm:grid-cols-4">
                     
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
                     
                         
                     
@@ -764,7 +679,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/md/01 prev.png', imgModalDesc: 'Moviedates is a tool that allows you to create a reminder of how much time is left until the premiere of your next favorite movie.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/md/01 prev.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/md/01 prev.png">
                                 </div>
                             </a>
                         
@@ -772,7 +687,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/md/01.png', imgModalDesc: 'Moviedates is a tool that allows you to create a reminder of how much time is left until the premiere of your next favorite movie.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/md/01.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/md/01.png">
                                 </div>
                             </a>
                         
@@ -780,7 +695,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/md/02 prev.png', imgModalDesc: 'Moviedates is a tool that allows you to create a reminder of how much time is left until the premiere of your next favorite movie.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/md/02 prev.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/md/02 prev.png">
                                 </div>
                             </a>
                         
@@ -788,7 +703,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/md/02.png', imgModalDesc: 'Moviedates is a tool that allows you to create a reminder of how much time is left until the premiere of your next favorite movie.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/md/02.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/md/02.png">
                                 </div>
                             </a>
                         
@@ -796,7 +711,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/md/03 prev.png', imgModalDesc: 'Moviedates is a tool that allows you to create a reminder of how much time is left until the premiere of your next favorite movie.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/md/03 prev.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/md/03 prev.png">
                                 </div>
                             </a>
                         
@@ -804,7 +719,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/md/03.png', imgModalDesc: 'Moviedates is a tool that allows you to create a reminder of how much time is left until the premiere of your next favorite movie.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/md/03.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/md/03.png">
                                 </div>
                             </a>
                         
@@ -812,7 +727,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/md/04.png', imgModalDesc: 'Moviedates is a tool that allows you to create a reminder of how much time is left until the premiere of your next favorite movie.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/md/04.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/md/04.png">
                                 </div>
                             </a>
                         
@@ -974,8 +889,8 @@
             <!-- Video -->
             
             <div class="space-y-12 md:space-y-24" data-aos="fade-up" data-aos-delay="100">
-                <div class="md:text-center space-y-4">
-                    <h3 class=" text-sm font-light">MOVIE PREMIERE REMINDER</h3>
+                <div class="space-y-4 md:text-center">
+                    <h3 class="text-sm font-light ">MOVIE PREMIERE REMINDER</h3>
                     <h6 class="text-4xl font-bold ">Video</h6>
                 </div>
                 <div class="flex flex-col">
@@ -1001,9 +916,685 @@
     </div>
      
 
-    <div class="md:space-y-32 space-y-16  ">
-        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-yellow">
-            <div class=" order-last md:order-first md:space-y-24 space-y-12 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
+    <div class="space-y-16 md:space-y-32 ">
+        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-amber">
+            <div class="order-last space-y-12 md:order-first md:space-y-24 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
+                <!-- <span class="text-sm font-light text-gray-300">Ux-ui</span> -->
+                <div class="space-y-8">
+                    <h3 class="relative z-10 text-5xl font-bold">SMART TV APP</h3>
+                    <div class="flex-1 space-y-2">
+                        <div class="prose">Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.</div>
+                        
+                        
+                        <!-- <div class="flex flex-row items-center text-gray-400 cursor-not-allowed" alt="Demo unavailable">
+                            <div class="link">Demo unavailable</div>                        
+                        </div>-->
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="grid md:grid-cols-2 gap-x-12 md:gap-x-24 md:gap-y-12 gap-y-6 ">
+                        <div class="flex-1 space-y-2">
+                            <span class="text-xl font-bold text-black">The problem</span>
+                            <div class="prose-sm prose">At the beginning of the project the streaming service had limited functionality, an old branding and it was only created to work on computer screens.</div>
+                        </div>
+                        <div class="flex-1 space-y-2">
+                            <span class="text-xl font-bold text-black">The goal</span>
+                            <div class="prose-sm prose">The goal of the redesign was to create an attractive and functional interface for tv, adapting the controls to the limitations of the device and showing the new identity of the sports pay TV channel.</div>
+                        </div>
+                        <div class="flex-1 space-y-2">
+                            <span class="text-xl font-bold text-black">Client</span>
+                            <div class="prose-sm prose">Canal del Fútbol</div>
+                        </div>
+                        <div class="flex-1 space-y-2">
+                            <span class="text-xl font-bold text-black">Platform</span>
+                            <div class="prose-sm prose">TV</div>
+                        </div>
+                        <div class="flex-1 space-y-2">
+                            <span class="text-xl font-bold text-black">Agency</span>
+                            <div class="prose-sm prose">NED</div>
+                        </div>
+                        <div class="flex-1 space-y-2">
+                            <span class="text-xl font-bold text-black">Role</span>
+                            <div class="prose-sm prose">UI Designer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:space-y-2 md:col-span-2" data-aos="fade-up" data-aos-delay="0">
+                <div class="relative z-0 w-full " >
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-red-500/30 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-yellow-500/30 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
+			        <div class="absolute w-48 h-48 rounded-full bg-pink-500/30 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
+                    <img data-aos="fade-left"  class="relative" src="http://localhost:4000/assets/img/2020/cdf/cover.png" alt="SMART TV APP" title="SMART TV APP" />
+                </div>
+            </div>
+
+        </div>
+            <!-- Multimedia -->
+            <div class="flex flex-col space-y-12 md:space-y-24 sm:col-span-2">
+            <!-- Imagenes -->
+            <div class="space-y-12 md:space-y-24" data-aos="fade">
+                <div class="space-y-4 md:text-center">
+                    <h3 class="text-sm font-light ">SMART TV APP</h3>
+                    <h6 class="text-4xl font-bold ">Previews design / Concept</h6>
+                </div>
+                <div x-data="{}"  class="grid grid-cols-1 gap-6 md:gap-6 sm:grid-cols-4">
+                    
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Campeonato.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/Campeonato.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Campeonatos.png', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/Campeonatos.png">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Equipos.png', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/Equipos.png">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Home.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/Home.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Schedule.png', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/Schedule.png">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-00.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/cdf-00.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-01.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/cdf-01.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-02.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/cdf-02.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-03.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/cdf-03.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-04.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/cdf-04.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-05.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/cdf-05.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-06.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
+                                <div class=" aspect-w-16 aspect-h-9" >
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/cdf/cdf-06.jpg">
+                                </div>
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </div>
+            </div>
+            <!-- Video -->
+            
+            <div class="space-y-12 md:space-y-24" data-aos="fade-up" data-aos-delay="100">
+                <div class="space-y-4 md:text-center">
+                    <h3 class="text-sm font-light ">SMART TV APP</h3>
+                    <h6 class="text-4xl font-bold ">Video</h6>
+                </div>
+                <div class="flex flex-col">
+                    <div class="w-full mx-auto space-y-6 divide-y-4 divide-gray-100 divide-solid">
+                        <video autoplay muted loop class="w-full" controls>
+                            <source src="http://localhost:4000/assets/img/video/cdf.mp4" type="video/mp4" />
+                            <source src="http://localhost:4000/assets/img/video/cdf.mp4" type="video/ogg" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            
+
+            <div class="grid md:grid-cols-1 gap-12" data-aos="fade-up" data-aos-delay="100">
+            
+            </div>
+
+        </div>
+    </div>
+     
+
+    <div class="space-y-16 md:space-y-32 ">
+        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-amber">
+            <div class="order-last space-y-12 md:order-first md:space-y-24 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
                 <!-- <span class="text-sm font-light text-gray-300">Ux-ui</span> -->
                 <div class="space-y-8">
                     <h3 class="relative z-10 text-5xl font-bold">ONLINE VIDEO EDITOR FOR PUBLISHERS</h3>
@@ -1023,37 +1614,37 @@
                     <div class="grid md:grid-cols-2 gap-x-12 md:gap-x-24 md:gap-y-12 gap-y-6 ">
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">The problem</span>
-                            <div class="prose prose-sm">The tool had an inefficient interface and was limited to only basic editing functions.</div>
+                            <div class="prose-sm prose">The tool had an inefficient interface and was limited to only basic editing functions.</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">The goal</span>
-                            <div class="prose prose-sm">Create different stages of product development by gradually adding new features. The design was created to be used as a basis for the development of the next 3 years of the software.</div>
+                            <div class="prose-sm prose">Create different stages of product development by gradually adding new features. The design was created to be used as a basis for the development of the next 3 years of the software.</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Client</span>
-                            <div class="prose prose-sm">Convergente SPA</div>
+                            <div class="prose-sm prose">Convergente SPA</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Platform</span>
-                            <div class="prose prose-sm">TV</div>
+                            <div class="prose-sm prose">TV</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Agency</span>
-                            <div class="prose prose-sm">NED</div>
+                            <div class="prose-sm prose">NED</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Role</span>
-                            <div class="prose prose-sm">UI/ UX Designer</div>
+                            <div class="prose-sm prose">UI/ UX Designer</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="md:space-y-2 md:col-span-2" data-aos="fade-up" data-aos-delay="0">
                 <div class="relative z-0 w-full " >
-                    <div class="absolute top-0 bg-red-500 rounded-full w-48 h-48 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
-                    <div class="absolute top-0 bg-yellow-500 rounded-full w-48 h-48 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
-			        <div class="absolute bg-pink-500 rounded-full w-48 h-48 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
-                    <img data-aos="fade-left" data-aos-delay="100" class="relative" src="http://localhost:4000/assets/img/2020/fc/cover.png" alt="ONLINE VIDEO EDITOR FOR PUBLISHERS" title="ONLINE VIDEO EDITOR FOR PUBLISHERS" />
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-red-500/30 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-yellow-500/30 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
+			        <div class="absolute w-48 h-48 rounded-full bg-pink-500/30 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
+                    <img data-aos="fade-left"  class="relative" src="http://localhost:4000/assets/img/2020/fc/cover.png" alt="ONLINE VIDEO EDITOR FOR PUBLISHERS" title="ONLINE VIDEO EDITOR FOR PUBLISHERS" />
                 </div>
             </div>
 
@@ -1061,13 +1652,33 @@
             <!-- Multimedia -->
             <div class="flex flex-col space-y-12 md:space-y-24 sm:col-span-2">
             <!-- Imagenes -->
-            <div class="md:space-y-24 space-y-12" data-aos="fade" data-aos-delay="100">
-                <div class="md:text-center space-y-4">
-                    <h3 class=" text-sm font-light">ONLINE VIDEO EDITOR FOR PUBLISHERS</h3>
+            <div class="space-y-12 md:space-y-24" data-aos="fade">
+                <div class="space-y-4 md:text-center">
+                    <h3 class="text-sm font-light ">ONLINE VIDEO EDITOR FOR PUBLISHERS</h3>
                     <h6 class="text-4xl font-bold ">Previews design / Concept</h6>
                 </div>
                 <div x-data="{}"  class="grid grid-cols-1 gap-6 md:gap-6 sm:grid-cols-4">
                     
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
                     
                         
                     
@@ -1370,7 +1981,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/fc/fc-01.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/fc/fc-01.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/fc/fc-01.png">
                                 </div>
                             </a>
                         
@@ -1378,7 +1989,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/fc/fc-02.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/fc/fc-02.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/fc/fc-02.png">
                                 </div>
                             </a>
                         
@@ -1386,7 +1997,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/fc/fc-03.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/fc/fc-03.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/fc/fc-03.png">
                                 </div>
                             </a>
                         
@@ -1394,7 +2005,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/fc/fc-04.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/fc/fc-04.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/fc/fc-04.png">
                                 </div>
                             </a>
                         
@@ -1402,7 +2013,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/fc/fc-05.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/fc/fc-05.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/fc/fc-05.png">
                                 </div>
                             </a>
                         
@@ -1410,7 +2021,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/fc/fc-06.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/fc/fc-06.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/fc/fc-06.png">
                                 </div>
                             </a>
                         
@@ -1592,662 +2203,6 @@
                 </div>
             </div>
             <!-- Video -->
-            
-
-
-            
-
-            <div class="grid md:grid-cols-1 gap-12" data-aos="fade-up" data-aos-delay="100">
-            
-            </div>
-
-        </div>
-    </div>
-     
-
-    <div class="md:space-y-32 space-y-16  ">
-        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-yellow">
-            <div class=" order-last md:order-first md:space-y-24 space-y-12 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
-                <!-- <span class="text-sm font-light text-gray-300">Ux-ui</span> -->
-                <div class="space-y-8">
-                    <h3 class="relative z-10 text-5xl font-bold">SMART TV APP</h3>
-                    <div class="flex-1 space-y-2">
-                        <div class="prose">Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.</div>
-                        
-                        
-                        <!-- <div class="flex flex-row items-center text-gray-400 cursor-not-allowed" alt="Demo unavailable">
-                            <div class="link">Demo unavailable</div>                        
-                        </div>-->
-                        
-                        
-                    </div>
-                </div>
-
-                <div class="space-y-8">
-                    <div class="grid md:grid-cols-2 gap-x-12 md:gap-x-24 md:gap-y-12 gap-y-6 ">
-                        <div class="flex-1 space-y-2">
-                            <span class="text-xl font-bold text-black">The problem</span>
-                            <div class="prose prose-sm">At the beginning of the project the streaming service had limited functionality, an old branding and it was only created to work on computer screens.</div>
-                        </div>
-                        <div class="flex-1 space-y-2">
-                            <span class="text-xl font-bold text-black">The goal</span>
-                            <div class="prose prose-sm">The goal of the redesign was to create an attractive and functional interface for tv, adapting the controls to the limitations of the device and showing the new identity of the sports pay TV channel.</div>
-                        </div>
-                        <div class="flex-1 space-y-2">
-                            <span class="text-xl font-bold text-black">Client</span>
-                            <div class="prose prose-sm">Canal del Fútbol</div>
-                        </div>
-                        <div class="flex-1 space-y-2">
-                            <span class="text-xl font-bold text-black">Platform</span>
-                            <div class="prose prose-sm">TV</div>
-                        </div>
-                        <div class="flex-1 space-y-2">
-                            <span class="text-xl font-bold text-black">Agency</span>
-                            <div class="prose prose-sm">NED</div>
-                        </div>
-                        <div class="flex-1 space-y-2">
-                            <span class="text-xl font-bold text-black">Role</span>
-                            <div class="prose prose-sm">UI Designer</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="md:space-y-2 md:col-span-2" data-aos="fade-up" data-aos-delay="0">
-                <div class="relative z-0 w-full " >
-                    <div class="absolute top-0 bg-red-500 rounded-full w-48 h-48 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
-                    <div class="absolute top-0 bg-yellow-500 rounded-full w-48 h-48 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
-			        <div class="absolute bg-pink-500 rounded-full w-48 h-48 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
-                    <img data-aos="fade-left" data-aos-delay="100" class="relative" src="http://localhost:4000/assets/img/2020/cdf/cover.png" alt="SMART TV APP" title="SMART TV APP" />
-                </div>
-            </div>
-
-        </div>
-            <!-- Multimedia -->
-            <div class="flex flex-col space-y-12 md:space-y-24 sm:col-span-2">
-            <!-- Imagenes -->
-            <div class="md:space-y-24 space-y-12" data-aos="fade" data-aos-delay="100">
-                <div class="md:text-center space-y-4">
-                    <h3 class=" text-sm font-light">SMART TV APP</h3>
-                    <h6 class="text-4xl font-bold ">Previews design / Concept</h6>
-                </div>
-                <div x-data="{}"  class="grid grid-cols-1 gap-6 md:gap-6 sm:grid-cols-4">
-                    
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Campeonato.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/Campeonato.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Campeonatos.png', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/Campeonatos.png">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Equipos.png', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/Equipos.png">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Home.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/Home.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/Schedule.png', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/Schedule.png">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-00.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/cdf-00.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-01.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/cdf-01.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-02.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/cdf-02.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-03.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/cdf-03.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-04.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/cdf-04.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-05.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/cdf-05.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                            <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/cdf/cdf-06.jpg', imgModalDesc: 'Estadio CDF, is a webOS application that allows you to enjoy the contents of CDF Live and On Demand (VOD) through streaming.' })" class="cursor-pointer tile">
-                                <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/cdf/cdf-06.jpg">
-                                </div>
-                            </a>
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                </div>
-            </div>
-            <!-- Video -->
-            
-            <div class="space-y-12 md:space-y-24" data-aos="fade-up" data-aos-delay="100">
-                <div class="md:text-center space-y-4">
-                    <h3 class=" text-sm font-light">SMART TV APP</h3>
-                    <h6 class="text-4xl font-bold ">Video</h6>
-                </div>
-                <div class="flex flex-col">
-                    <div class="w-full mx-auto space-y-6 divide-y-4 divide-gray-100 divide-solid">
-                        <video autoplay muted loop class="w-full" controls>
-                            <source src="http://localhost:4000/assets/img/video/cdf.mp4" type="video/mp4" />
-                            <source src="http://localhost:4000/assets/img/video/cdf.mp4" type="video/ogg" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
-            </div>
             
 
 
@@ -2261,9 +2216,9 @@
     </div>
      
 
-    <div class="md:space-y-32 space-y-16  ">
-        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-yellow">
-            <div class=" order-last md:order-first md:space-y-24 space-y-12 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
+    <div class="space-y-16 md:space-y-32 ">
+        <div class="grid items-center w-full gap-12 mx-auto md:grid-cols-4 max-w-none prose-amber">
+            <div class="order-last space-y-12 md:order-first md:space-y-24 md:col-span-2" data-aos="fade-up" data-aos-delay="200">
                 <!-- <span class="text-sm font-light text-gray-300">Video-editor</span> -->
                 <div class="space-y-8">
                     <h3 class="relative z-10 text-5xl font-bold">VIDEO FOR SOCIAL</h3>
@@ -2286,37 +2241,37 @@
                     <div class="grid md:grid-cols-2 gap-x-12 md:gap-x-24 md:gap-y-12 gap-y-6 ">
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">The problem</span>
-                            <div class="prose prose-sm">The tool had an inefficient interface and was limited to only basic editing functions.</div>
+                            <div class="prose-sm prose">The tool had an inefficient interface and was limited to only basic editing functions.</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">The goal</span>
-                            <div class="prose prose-sm">Create different stages of product development by gradually adding new features. The design was created to be used as a basis for the development of the next 3 years of the software.</div>
+                            <div class="prose-sm prose">Create different stages of product development by gradually adding new features. The design was created to be used as a basis for the development of the next 3 years of the software.</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Client</span>
-                            <div class="prose prose-sm">Convergente SPA</div>
+                            <div class="prose-sm prose">Convergente SPA</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Platform</span>
-                            <div class="prose prose-sm">TV</div>
+                            <div class="prose-sm prose">TV</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Agency</span>
-                            <div class="prose prose-sm">NED</div>
+                            <div class="prose-sm prose">NED</div>
                         </div>
                         <div class="flex-1 space-y-2">
                             <span class="text-xl font-bold text-black">Role</span>
-                            <div class="prose prose-sm">VIDEO EDITOR</div>
+                            <div class="prose-sm prose">VIDEO EDITOR</div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="md:space-y-2 md:col-span-2" data-aos="fade-up" data-aos-delay="0">
                 <div class="relative z-0 w-full " >
-                    <div class="absolute top-0 bg-red-500 rounded-full w-48 h-48 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
-                    <div class="absolute top-0 bg-yellow-500 rounded-full w-48 h-48 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
-			        <div class="absolute bg-pink-500 rounded-full w-48 h-48 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
-                    <img data-aos="fade-left" data-aos-delay="100" class="relative" src="http://localhost:4000/assets/img/2020/tm/cover.png" alt="VIDEO FOR SOCIAL" title="VIDEO FOR SOCIAL" />
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-red-500/30 md:w-96 md:h-96 -left-2 md:-left-4 filter blur-2xl opacity-60 animate-blob"></div>
+                    <div class="absolute top-0 w-48 h-48 rounded-full bg-yellow-500/30 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 animate-blob animation-delay-2000"></div>
+			        <div class="absolute w-48 h-48 rounded-full bg-pink-500/30 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 animate-blob animation-delay-4000"></div>
+                    <img data-aos="fade-left"  class="relative" src="http://localhost:4000/assets/img/2020/tm/cover.png" alt="VIDEO FOR SOCIAL" title="VIDEO FOR SOCIAL" />
                 </div>
             </div>
 
@@ -2324,13 +2279,33 @@
             <!-- Multimedia -->
             <div class="flex flex-col space-y-12 md:space-y-24 sm:col-span-2">
             <!-- Imagenes -->
-            <div class="md:space-y-24 space-y-12" data-aos="fade" data-aos-delay="100">
-                <div class="md:text-center space-y-4">
-                    <h3 class=" text-sm font-light">VIDEO FOR SOCIAL</h3>
+            <div class="space-y-12 md:space-y-24" data-aos="fade">
+                <div class="space-y-4 md:text-center">
+                    <h3 class="text-sm font-light ">VIDEO FOR SOCIAL</h3>
                     <h6 class="text-4xl font-bold ">Previews design / Concept</h6>
                 </div>
                 <div x-data="{}"  class="grid grid-cols-1 gap-6 md:gap-6 sm:grid-cols-4">
                     
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
                     
                         
                     
@@ -2683,7 +2658,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/01.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/01.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/tmj/01.png">
                                 </div>
                             </a>
                         
@@ -2691,7 +2666,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/02.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/02.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/tmj/02.png">
                                 </div>
                             </a>
                         
@@ -2699,7 +2674,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/03.png', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/03.png">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/tmj/03.png">
                                 </div>
                             </a>
                         
@@ -2707,7 +2682,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/tmj-01.jpg', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/tmj-01.jpg">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/tmj/tmj-01.jpg">
                                 </div>
                             </a>
                         
@@ -2715,7 +2690,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/tmj-02.jpg', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/tmj-02.jpg">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/tmj/tmj-02.jpg">
                                 </div>
                             </a>
                         
@@ -2723,7 +2698,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/tmj-03.jpg', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/tmj-03.jpg">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/tmj/tmj-03.jpg">
                                 </div>
                             </a>
                         
@@ -2731,7 +2706,7 @@
                         
                             <a @click="$dispatch('img-modal', {  imgModalSrc: '/assets/img/pro/tmj/tmj-04.jpg', imgModalDesc: 'FireClip is a web application that allows you to create and edit highlights videos from live or recent programming, allowing content creators to publish and distribute content either on social media or their own video platforms.' })" class="cursor-pointer tile">
                                 <div class=" aspect-w-16 aspect-h-9" >
-                                    <img alt="Placeholder" class="object-cover rounded-xl bg-gray-200 w-full" src="/assets/img/thumbs/tmj/tmj-04.jpg">
+                                    <img alt="Placeholder" class="object-cover w-full bg-gray-200 rounded-xl" src="/assets/img/thumbs/tmj/tmj-04.jpg">
                                 </div>
                             </a>
                         
@@ -2865,8 +2840,8 @@
 
 
             
-            <div class="md:text-center space-y-4">
-                <h3 class=" text-sm font-light">VIDEO FOR SOCIAL</h3>
+            <div class="space-y-4 md:text-center">
+                <h3 class="text-sm font-light ">VIDEO FOR SOCIAL</h3>
                 <h6 class="text-4xl font-bold ">Social video</h6>
             </div>
             
@@ -2936,11 +2911,19 @@
 
 <!-- modal-img-modal -->
 <div x-data="{ imgModal : false, imgModalSrc : '', imgModalDesc : '' }">
-    <template @img-modal.window="imgModal = true; imgModalSrc = $event.detail.imgModalSrc; imgModalDesc = $event.detail.imgModalDesc;" x-if="imgModal">
-        <div x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-90" x-on:click.away="imgModalSrc = ''" class="fixed inset-0 z-50 flex items-center justify-center w-full md:p-2 overflow-hidden bg-black bg-opacity-75 md:h-100">
-        <div @click.away="imgModal = ''" class="flex flex-col md:max-w-5xl max-h-full overflow-auto">
+    <template @img-modal.window="imgModal = true; imgModalSrc = $event.detail.imgModalSrc; imgModalDesc = $event.detail.imgModalDesc;"
+        x-if="imgModal">
+        <div
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="opacity-0 transform "
+            x-transition:enter-end="opacity-100 transform "
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="opacity-100 transform "
+            x-transition:leave-end="opacity-0 transform"
+            x-on:click.away="imgModalSrc = ''" class="fixed inset-0 z-50 flex items-center justify-center w-full overflow-hidden bg-black bg-opacity-75 md:p-2 md:h-100">
+        <div @click.away="imgModal = ''" class="flex flex-col max-h-full overflow-auto md:max-w-5xl">
             <div class="z-50">
-            <button @click="imgModal = ''" class="float-right pt-2 md:pr-2 text-white outline-none focus:outline-none">
+            <button @click="imgModal = ''" class="float-right pt-2 text-white outline-none md:pr-2 focus:outline-none">
                 <svg class="text-white fill-current " xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
                 <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z">
                 </path>
@@ -2949,7 +2932,7 @@
             </div>
             <div class="md:p-2">
             <img :alt="imgModalSrc" class="object-contain w-full rounded-lg md:h-1/2-screen" :src="imgModalSrc">
-            <p x-text="imgModalDesc" class="py-2 text-center text-white "></p>
+            
             </div>
         </div>
         </div>
@@ -2957,43 +2940,99 @@
     <div class="grid-col-3"></div>
 </div>
 <!-- Mini pro -->
-<section class=" text-black ">
-  <div class="container space-y-24 pb-8 max-w-screen-xl px-4 mx-auto">
-  <div class="text-center space-y-4">
+<section class="text-black ">
+  <div class="container max-w-screen-xl px-4 pb-8 mx-auto space-y-24">
+  <div class="space-y-4 text-center">
       <h6 class="text-4xl font-bold ">Other proyects</h6>
   </div>
   <div class="grid grid-cols-2 gap-6 sm:grid-cols-4">
      
 
-    <a class="space-y-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105" href="https://www.instagram.com/ar/599935227295979/?ch=ZDdjZTczM2VlOGYzMjEwOWE2OGI4NjgwNGE4NzVhNjQ%3D">
-      <div class="relative transition duration-500 ease-in-out shadow-xl hover:shadow-sm">
-        <img class="border border-yellow-500 rounded-lg" src="/../assets/img/minipro/black-panther.png    " alt="Black Panther" title="Black Panther" />
+    <a class="space-y-8 " href="https://roundme.com/@360photocl">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/360photocl.png" alt="360photocl - Virtual Tours" title="360photocl - Virtual Tours" />
       </div>
-      <h2 class="text-sm text-yellow-500">Black Panther</h2>
+      <h2 class="text-base">360photocl - Virtual Tours</h2>
     </a>
      
 
-    <a class="space-y-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105" href="https://www.instagram.com/ar/734837780322236/">
-      <div class="relative transition duration-500 ease-in-out shadow-xl hover:shadow-sm">
-        <img class="border border-yellow-500 rounded-lg" src="/../assets/img/minipro/daft_punk.png    " alt="Daft Punk" title="Daft Punk" />
+    <a class="space-y-8 " href="https://www.reddit.com/r/newzealand/comments/hp19y3/mini_sky_tower_instagram_filter/">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/skytower-ar.png" alt="Mini Sky Tower - Instagram filter" title="Mini Sky Tower - Instagram filter" />
       </div>
-      <h2 class="text-sm text-yellow-500">Daft Punk</h2>
+      <h2 class="text-base">Mini Sky Tower - Instagram filter</h2>
     </a>
      
 
-    <a class="space-y-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105" href="https://www.instagram.com/ar/476676659853460/">
-      <div class="relative transition duration-500 ease-in-out shadow-xl hover:shadow-sm">
-        <img class="border border-yellow-500 rounded-lg" src="/../assets/img/minipro/joker.png    " alt="The Joker" title="The Joker" />
+    <a class="space-y-8 " href="https://www.instagram.com/ar/599935227295979/?ch=ZDdjZTczM2VlOGYzMjEwOWE2OGI4NjgwNGE4NzVhNjQ%3D">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/black-panther.png    " alt="Black Panther - Instagram filter" title="Black Panther - Instagram filter" />
       </div>
-      <h2 class="text-sm text-yellow-500">The Joker</h2>
+      <h2 class="text-base">Black Panther - Instagram filter</h2>
     </a>
      
 
-    <a class="space-y-8 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105" href="https://www.instagram.com/ar/2460630597512379/">
-      <div class="relative transition duration-500 ease-in-out shadow-xl hover:shadow-sm">
-        <img class="border border-yellow-500 rounded-lg" src="/../assets/img/minipro/mandalorean.png    " alt="The Mandalorian" title="The Mandalorian" />
+    <a class="space-y-8 " href="https://www.instagram.com/ar/734837780322236/">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/daft_punk.png    " alt="Daft Punk - Instagram filter" title="Daft Punk - Instagram filter" />
       </div>
-      <h2 class="text-sm text-yellow-500">The Mandalorian</h2>
+      <h2 class="text-base">Daft Punk - Instagram filter</h2>
+    </a>
+     
+
+    <a class="space-y-8 " href="https://www.instagram.com/ar/476676659853460/">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/joker.png    " alt="The Joker - Instagram filter" title="The Joker - Instagram filter" />
+      </div>
+      <h2 class="text-base">The Joker - Instagram filter</h2>
+    </a>
+     
+
+    <a class="space-y-8 " href="https://www.instagram.com/ar/2460630597512379/">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/mandalorean.png    " alt="The Mandalorian - Instagram filter" title="The Mandalorian - Instagram filter" />
+      </div>
+      <h2 class="text-base">The Mandalorian - Instagram filter</h2>
+    </a>
+     
+
+    <a class="space-y-8 " href="https://aricer.gumroad.com/l/gdVSb">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/minimalist-ios14-icons.png" alt="Minimalist iOS14 Icons" title="Minimalist iOS14 Icons" />
+      </div>
+      <h2 class="text-base">Minimalist iOS14 Icons</h2>
+    </a>
+     
+
+    <a class="space-y-8 " href="../assets/img/minipro/bad-day-full.png">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/bad-day.png" alt="Bad day cat - Illustration" title="Bad day cat - Illustration" />
+      </div>
+      <h2 class="text-base">Bad day cat - Illustration</h2>
+    </a>
+     
+
+    <a class="space-y-8 " href="https://codepen.io/Smilesharks/pen/KKmxoyX">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/anvorguesa-cat.png" alt="Anvorguesa cat - CSS" title="Anvorguesa cat - CSS" />
+      </div>
+      <h2 class="text-base">Anvorguesa cat - CSS</h2>
+    </a>
+     
+
+    <a class="space-y-8 " href="https://www.redbubble.com/es/people/smilesharks/shop?artistUserName=smilesharks&collections=2236743&iaCode=all-departments&sortOrder=relevant">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/coleccion-de-patrones.png" alt="Pattern collection - Tienda" title="Pattern collection - Tienda" />
+      </div>
+      <h2 class="text-base">Pattern collection - Tienda</h2>
+    </a>
+     
+
+    <a class="space-y-8 " href="https://codepen.io/Smilesharks/pen/dyJEPmz">
+      <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
+        <img class="rounded-lg" src="/../assets/img/minipro/qr.png" alt="Wifi Password QR Code generator - Codepen" title="Wifi Password QR Code generator - Codepen" />
+      </div>
+      <h2 class="text-base">Wifi Password QR Code generator - Codepen</h2>
     </a>
     
   </div>
@@ -3001,7 +3040,6 @@
 </section>
 </div>
     <footer>
-	<!-- <script src="/assets/js/awesome.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine-ie11.min.js"></script>	
     <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/tgs-player.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -3013,14 +3051,12 @@
 
 	</script>
 	
-	<div class="py-6 text-gray-900 bg-white">
-		<div class="container flex flex-col w-full p-8 mx-auto space-y-6 text-sm text-black border-gray-700 sm:space-y-0 sm:items-center max-w-7xl md:flex-row md:justify-between">
-			<span>
+	<div class="py-6 text-white bg-black">
+		<div class="container flex flex-col w-full p-8 mx-auto space-y-6 text-sm text-white border-gray-700 sm:space-y-0 sm:items-center max-w-7xl md:flex-row md:justify-between">
+			<span class="text-white filter invert">
 				<div class="hidden logo md:block">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img class="mr-2" height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -3030,15 +3066,13 @@
             </lottie-player>
     
     
-    <h2 class="text-2xl font-extrabold">Ariel Cerda</h2>
+    <h2 class="font-sans text-2xl font-semibold">Ariel Cerda</h2>
     
   </a>
 </div>
 <div class="block logo-mobile md:hidden">
   <a class="flex items-center transition duration-300 ease-in-out hover:opacity-70" href="/">
     
-    <!-- <img height="36px" width="36px"
-      alt="Ariel Cerda Hernandez Logo" src="/assets/images/logo/logo-mobile.svg" /> -->
             <lottie-player
             autoplay
             mode="normal"
@@ -3048,7 +3082,7 @@
             </lottie-player>
     
     
-    <h2 class="text-2xl font-extrabold"></h2>
+    <h2 class="font-sans text-2xl font-semibold"></h2>
     
   </a>
 </div>
@@ -3084,7 +3118,7 @@
     </a>
   </div>
 		</div>
-		<div class="container w-full p-8 mx-auto text-sm text-black border-gray-300 sm:flex max-w-7xl sm:flex-row sm:justify-between sm:border-solid md:border-t">
+		<div class="container w-full p-8 mx-auto text-sm text-white border-gray-900 sm:flex max-w-7xl sm:flex-row sm:justify-between sm:border-solid md:border-t">
 			<p class="flex sm:space-x-2">
 				<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
 					<path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -3109,6 +3143,7 @@
 		</div>
 	</div>
 </footer>
+
 
     
   </body>

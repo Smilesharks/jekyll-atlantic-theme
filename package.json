@@ -4,17 +4,15 @@
   "description": "A Jekyll Tailwind starter blog",
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.4.4",
-    "@tailwindcss/typography": "^0.4.1",
-    "autoprefixer": "^10.2.6",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/typography": "github:tailwindcss/typography",
+    "autoprefixer": "^10.4.6",
     "cssnano": "^5.0.6",
-    "postcss": "^8.3.6",
-    "postcss-import": "^14.0.2",
+    "postcss": "^8.4.13",
+    "postcss-import": "^14.1.0",
     "postcss-nested": "^5.0.6",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^3.0.24"
   },
   "author": "rob@zerostatic.io",
-  "license": "MIT",
-  "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.0"
-  }
+  "license": "MIT"
 }
