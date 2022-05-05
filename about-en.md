@@ -35,7 +35,7 @@ It was created using free technology:
 
 For hosting the site I use [Netlify](https://www.netlify.com/).
 
-For the development [Jekyll](https://jekyllrb.com/) 4.1+ [Tailwind CSS](https://tailwindcss.com/docs) v2.2+ [PostCSS](https://postcss.org/) 8.3+
+For the development [Jekyll](https://jekyllrb.com/) 4.1+ [Tailwind CSS](https://tailwindcss.com/docs) v3.0+ [PostCSS](https://postcss.org/) 8.4+
 and the structure is based on the **[Jekyll Atlantic](https://github.com/zerostaticthemes/jekyll-atlantic-theme)** theme that I then customized.
 
-This is version number 4.2 of the blog you can check the code in [Github](https://github.com/Smilesharks/jekyll-atlantic-theme)
+This is version number 4.4 of the blog you can check the code in [Github](https://github.com/Smilesharks/jekyll-atlantic-theme)
