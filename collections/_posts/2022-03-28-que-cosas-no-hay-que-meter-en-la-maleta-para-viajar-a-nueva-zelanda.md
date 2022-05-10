@@ -2,7 +2,7 @@
 layout: post
 title: Que cosas no hay que meter en la maleta para viajar a Nueva Zelanda
 authors: ["Ariel Cerda"]
-date: 2022-05-10 23:55:35 GMT+12
+date: 2022-05-09 23:55:35 GMT+12
 categories: ["Nueva-Zelanda"]
 image: "/assets/img/articles/no-esenciales-nueva-zelanda.jpg"
 thumbnail: "/assets/img/articles/no-esenciales-nueva-zelanda.jpg"

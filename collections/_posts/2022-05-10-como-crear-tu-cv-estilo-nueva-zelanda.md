@@ -2,7 +2,7 @@
 layout: post
 title: Como crear tu CV estilo Nueva Zelanda
 authors: ["Ariel Cerda"]
-date: 2022-05-10 22:46:20 GMT+12
+date: 2022-05-09 22:46:20 GMT+12
 categories: ["Nueva-Zelanda"]
 image: "/assets/img/articles/como-crear-tu-cv-estilo-nueva-zelanda.jpg"
 thumbnail: "/assets/img/articles/como-crear-tu-cv-estilo-nueva-zelanda.jpg"

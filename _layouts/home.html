@@ -124,7 +124,7 @@ layout: full-width
         </div>
         <div class="grid grid-cols-2 gap-6 sm:grid-cols-4">
           {% for minipro in site.minipro reversed %} {{ minipro.content | markdownify }}
-          <a class="space-y-6" href="{{ minipro.link }}">
+          <a target="blank" class="space-y-6" href="{{ minipro.link }}">
             <div class="relative transition duration-500 ease-in-out transform shadow-xl hover:-translate-y-1 hover:scale-105 hover:shadow-sm">
               <img class="rounded-lg" src="{{ minipro.img | prepend: site.baseurl }}" alt="{{ minipro.title }}" title="{{ minipro.title }}" />
             </div>
