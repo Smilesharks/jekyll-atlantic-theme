@@ -2,11 +2,11 @@
 layout: post
 title: Esenciales que se deben traer a Nueva Zelanda
 authors: ["Ariel Cerda"]
-date:   2022-04-27 19:24:26 GMT+12
+date: 2022-04-27 19:24:26 GMT+12
 categories: ["Nueva-Zelanda"]
-image: '/assets/img/articles/esenciales-nueva-zelanda.jpg'
-thumbnail: '/assets/img/articles/esenciales-nueva-zelanda.jpg'
-youtubeId: ''
+image: "/assets/img/articles/esenciales-nueva-zelanda.jpg"
+thumbnail: "/assets/img/articles/esenciales-nueva-zelanda.jpg"
+youtubeId: ""
 ---
 
 ¿Vas de backpacker a Nueva Zelanda, estás haciendo un año sabático o estás de working holiday? Entonces esta es la lista definitiva para ti. Hacer un viaje largo a Nueva Zelanda es muy emocionante, pero el proceso de hacer la maleta para un período tan largo es desalentador. No querrás equivocarte. Sin embargo, estamos aquí para aliviar el estrés con esta lista definitiva de equipaje para un viaje largo a Nueva Zelanda.
@@ -19,7 +19,7 @@ Cometi el error de llegar con una maleta gigante una pequena y una mochila. Al l
 
 ## Elegir una buena mochila
 
-Hacer la lista definitiva de equipaje para un viaje largo por Nueva Zelanda significa elegir el equipaje adecuado para meter tus cosas. Tu mochila o maleta será tu compañera durante todo el viaje, así que tienes que sentirte cómodo llevándola por todo el país. Mientras que la mayoría de los mochileros eligen las mochilas porque son más versátiles para transportarlas a más lugares, a otros les resulta más fácil utilizar una maleta con ruedas si piensan utilizar métodos de transporte cómodos, como un coche, para desplazarse entre las principales ciudades. 
+Hacer la lista definitiva de equipaje para un viaje largo por Nueva Zelanda significa elegir el equipaje adecuado para meter tus cosas. Tu mochila o maleta será tu compañera durante todo el viaje, así que tienes que sentirte cómodo llevándola por todo el país. Mientras que la mayoría de los mochileros eligen las mochilas porque son más versátiles para transportarlas a más lugares, a otros les resulta más fácil utilizar una maleta con ruedas si piensan utilizar métodos de transporte cómodos, como un coche, para desplazarse entre las principales ciudades.
 
 Cuando elijas una mochila, asegúrate de que es del tamaño adecuado para ti. No hay nada peor que llevar una mochila pesada que no se adapte correctamente a tu espalda.
 
@@ -27,7 +27,7 @@ Aca te dejo algunas buernas opciones:
 
 ## Lista de equipaje de mano para Nueva Zelanda
 
-Lo primero es la lista de equipaje de tu maleta de mano, ya que va a ser tu compañera para subir al avión a Nueva Zelanda. En ella irán tus objetos más valiosos, así como la documentación importante para entrar en Nueva Zelanda. Asegúrate no sólo de elegir una maleta de mano que esté dentro de las restricciones de peso y tamaño de la aerolínea elegida, sino de elegir una maleta de mano que también puedas utilizar como mochila para el día a día en Nueva Zelanda. 
+Lo primero es la lista de equipaje de tu maleta de mano, ya que va a ser tu compañera para subir al avión a Nueva Zelanda. En ella irán tus objetos más valiosos, así como la documentación importante para entrar en Nueva Zelanda. Asegúrate no sólo de elegir una maleta de mano que esté dentro de las restricciones de peso y tamaño de la aerolínea elegida, sino de elegir una maleta de mano que también puedas utilizar como mochila para el día a día en Nueva Zelanda.
 
 ### Lista de equipaje de mano
 
@@ -37,11 +37,9 @@ Lo primero es la lista de equipaje de tu maleta de mano, ya que va a ser tu comp
 - Documentos que acrediten de que dispone de fondos suficientes (Nunca me lo pidieron pero es bueno tenerlo)
 - Una libreta de mano con numeros de telefono, direcciones o cualquier informacion necesaria para cuando llegues, recuerda que solo tendras acceso al internet del aeropuerto una vez que llegues y siempre es bueno tener un respaldo de las cosas que tienes en tu telefono por si usaste toda la bateria viendo peliculas en el avion.
 - Otro documento de identidad como tu carnet de conducir devidamente traducido.
-    
-    ( Sólo hay tres tipos de identificación que puede utilizar para demostrar su edad: el pasaporte, el permiso de conducir neozelandés y la tarjeta Hospitality New Zealand 18+ Card. Si quieres comprar alcohol, aunque tengas 30 años, es posible que te revisen el carné.)
-    
+  ( Sólo hay tres tipos de identificación que puede utilizar para demostrar su edad: el pasaporte, el permiso de conducir neozelandés y la tarjeta Hospitality New Zealand 18+ Card. Si quieres comprar alcohol, aunque tengas 30 años, es posible que te revisen el carné.)
 - Dinero en efectivo en dólares neozelandeses para tu primera semana en Nueva Zelanda
-Tarjeta de crédito/debito habilitada para pagos internacionales.
+  Tarjeta de crédito/debito habilitada para pagos internacionales.
 - Cable Usb para cargar tu mobil.
 - Dispositivo mobil cargado con musica, podcasts, libros o peliculas. (Pro tip: puedes descargar los mapas de google maps offline previamente)
 - Artículos de aseo
@@ -57,7 +55,7 @@ Para un viaje prolongado a Nueva Zelanda, por ejemplo de un año, te recomiendo 
 
 ### Ropa para viajes largos/para dormir
 
-Tanto si se trata del vuelo de ida y vuelta a Nueva Zelanda, como de un largo viaje en coche o en autobús, querrás tener ropa cómoda. Prueba con pantalones de deporte, leggings, pantalones cortos, camisetas, sudaderas con capucha o zapatillas de deporte. También puedes utilizar estas prendas para dormir (aunque nadie te juzgará si quieres llevar tu pijama con orejas  favorito.
+Tanto si se trata del vuelo de ida y vuelta a Nueva Zelanda, como de un largo viaje en coche o en autobús, querrás tener ropa cómoda. Prueba con pantalones de deporte, leggings, pantalones cortos, camisetas, sudaderas con capucha o zapatillas de deporte. También puedes utilizar estas prendas para dormir (aunque nadie te juzgará si quieres llevar tu pijama con orejas favorito.
 
 ### Para las actividades al aire libre
 
@@ -109,7 +107,7 @@ Puedes traer a Nueva Zelanda hasta tres meses de medicamentos recetados. Si supe
 
 ## Otras cosas esenciales para viajar a Nueva Zelanda
 
-Ahora, todas esas pequeñas cosas que son esenciales para un viaje prolongado en Nueva Zelanda. 
+Ahora, todas esas pequeñas cosas que son esenciales para un viaje prolongado en Nueva Zelanda.
 
 - Adaptador de viaje para Nueva Zelanda
 - Enchufe múltiple.

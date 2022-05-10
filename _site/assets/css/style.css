@@ -2440,6 +2440,11 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.dev * {
+  border-width: 1px;
+  border-color: rgb(239 68 68 / 0.5);
+  background-color: rgb(239 68 68 / 0.05);
+}
 .highlight pre { background-color: #272822; }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e }

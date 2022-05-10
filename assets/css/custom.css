@@ -5,3 +5,7 @@ body {
 html {
 	@apply scroll-smooth;
 }
+
+.dev * {
+	@apply border border-red-500/50 bg-red-500/5;
+}
