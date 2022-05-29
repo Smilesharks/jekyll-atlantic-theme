@@ -2,8 +2,7 @@
 layout: post
 title: Cuanto gana un diseñador en Nueva Zelanda
 authors: ["Ariel Cerda"]
-
-date: 2021-10-03 12:41:50 GMT+13
+date: 2021-10-03 12:41:50 GMT+12
 categories: ["Nueva-Zelanda"]
 image: "https://img.youtube.com/vi/lyrXQntELKc/maxresdefault.jpg"
 thumbnail: "https://img.youtube.com/vi/lyrXQntELKc/maxresdefault.jpg"

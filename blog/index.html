@@ -64,9 +64,15 @@ pagination:
 
   <div class="container space-y-8 px-6 mx-auto md:px-0{% if paginator.page != 1 %} py-12 {% endif %}">
     <main class="grid gap-8 py-6 md:gap-16 md:py-6 md:grid-cols-3">
+      {% if paginator.page == 1 %}
         {% for post in paginator.posts limit:6 offset:1 %}
           {% include summary.html post=post %}
         {% endfor %}
+      {% else %}
+        {% for post in paginator.posts limit:6 %}
+          {% include summary.html post=post %}
+        {% endfor %}
+      {% endif %}
       </main>
       <hr>
       
